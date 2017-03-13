@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{22195569-3BAE-36E1-A8E4-F98936A3E9E4}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/src/CMakeLists.txt;C:\PWP2\src\CMakeLists.txt;C:\PWP2\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\src\igtlConfigure.h.in;C:\PWP2\src\igtl_typeconfig.h.in;C:\PWP2\src\igtlTypeConfig.h.in;C:\PWP2\src\UseOpenIGTLink.cmake.in;C:\PWP2\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/src/CMakeLists.txt;C:\PWP2\src\CMakeLists.txt;C:\PWP2\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\src\igtlConfigure.h.in;C:\PWP2\src\igtl_typeconfig.h.in;C:\PWP2\src\igtlTypeConfig.h.in;C:\PWP2\src\UseOpenIGTLink.cmake.in;C:\PWP2\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/src/CMakeLists.txt;C:\PWP2\src\CMakeLists.txt;C:\PWP2\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\src\igtlConfigure.h.in;C:\PWP2\src\igtl_typeconfig.h.in;C:\PWP2\src\igtlTypeConfig.h.in;C:\PWP2\src\UseOpenIGTLink.cmake.in;C:\PWP2\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/src/CMakeLists.txt;C:\PWP2\src\CMakeLists.txt;C:\PWP2\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\src\igtlConfigure.h.in;C:\PWP2\src\igtl_typeconfig.h.in;C:\PWP2\src\igtlTypeConfig.h.in;C:\PWP2\src\UseOpenIGTLink.cmake.in;C:\PWP2\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/PWP2/build/ZERO_CHECK.vcxproj">
+      <Project>21A4B0A2-EFA3-3EDB-B90A-34EB0C298E03</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Bind/BindClient.vcxproj">
+      <Project>601AAC31-49CE-3EF4-BEE2-7C5543F28E24</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Capability/CapabilityClient.vcxproj">
+      <Project>59FCF621-1636-37E7-BD10-8ED23E78FFD4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Capability/CapabilityServer.vcxproj">
+      <Project>7A89B8D1-FA93-3F1D-91E8-C5B4AF30E658</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/ImageDatabaseServer/ImageDatabaseServer.vcxproj">
+      <Project>8D3E5CBE-9981-329C-9E47-5BF174D6CC41</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/ImageMeta/ImageMetaClient.vcxproj">
+      <Project>C4F1A8BF-63CF-3082-8E51-B7AEA50661BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/ImageMeta/ImageMetaServer.vcxproj">
+      <Project>344DCF3B-DBCE-3E1B-9A9F-7FEBD012F2F3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Imager/ImagerClient.vcxproj">
+      <Project>9CB54D59-4800-3642-AD14-15C3710CEED4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Imager/ImagerClient2.vcxproj">
+      <Project>23BAEA41-4D23-3DA7-A707-4D9060409F3B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Imager/ImagerClient3.vcxproj">
+      <Project>E7C22183-9D38-3915-9F65-A0DCFDFC5A94</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Imager/ImagerServer.vcxproj">
+      <Project>7AD551E6-00DF-331D-9843-A4A2FE96DDF9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Imager/ImagerServer3.vcxproj">
+      <Project>07A80242-B30A-3133-8337-B81FA80BB99F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/ImageMeta/LabelMetaClient.vcxproj">
+      <Project>0512504B-19D9-3F94-9434-48F1917DBA50</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/ImageMeta/LabelMetaServer.vcxproj">
+      <Project>2A1A8073-CF18-39EC-ACCA-5ED6E669F71B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Thread/MultipleMethodExecute.vcxproj">
+      <Project>7D7DAD7E-F9F5-30E8-8F81-DA30DBF93AD3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Source/OpenIGTLink.vcxproj">
+      <Project>AD1748D1-2639-3A62-B4BE-D362D6ABC79C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Point/PointClient.vcxproj">
+      <Project>E95D1C2F-EB82-3877-9699-ABF3A77F3F07</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Point/PointClient3.vcxproj">
+      <Project>6408F704-801D-3A12-9B74-81B4108A6AFF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Point/PointListServer.vcxproj">
+      <Project>E5BE41DE-F5BC-33D1-9ACF-6AB61A776614</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Point/PointServer.vcxproj">
+      <Project>C8162D92-D7C5-3DC4-926E-48AA7D325FF7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Point/PointServer3.vcxproj">
+      <Project>53326669-2B09-35BB-9AB7-3AA6E8735038</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/PolyData/PolyDataClient.vcxproj">
+      <Project>3F0F5843-A9AE-371C-B814-320BBA824B01</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/PolyData/PolyDataServer.vcxproj">
+      <Project>0E5F9C50-4686-3167-885C-D8911458A914</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/QuaternionTrackingData/QuaternionTrackingDataClient.vcxproj">
+      <Project>4E890481-6EAA-32E4-ADCF-887C2338C522</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.vcxproj">
+      <Project>33D248C5-9CE3-3666-A7EF-1CB28AC4C79E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Receiver/ReceiveClient.vcxproj">
+      <Project>0C8D94D0-EF5F-3966-9321-4E79CC4FF36F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Receiver/ReceiveServer.vcxproj">
+      <Project>90BBD73A-EB7C-3AFC-95A5-9918860EB765</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/SessionManager/SessionManagerServer.vcxproj">
+      <Project>154D3455-E21F-3DF9-BE3F-FCA39439BDD8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Thread/SingleMethodExecute.vcxproj">
+      <Project>08B547D8-B71D-3131-8204-26463FF2818B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Thread/SpawnThread.vcxproj">
+      <Project>F3F1D115-3E39-3A17-9B49-05C327A10653</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Status/StatusClient.vcxproj">
+      <Project>94DC061D-7205-3F16-883B-1D6062E3DE92</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Status/StatusServer.vcxproj">
+      <Project>C7F2EA49-F196-3002-B8E4-37C9F5146814</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/String/StringClient.vcxproj">
+      <Project>8EEB10C6-A751-3DF2-9719-383EE8C1362F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/String/StringEchoServer.vcxproj">
+      <Project>71880A24-934C-3BFB-BB98-0A0C27612F0D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/String/StringServer.vcxproj">
+      <Project>6C44CDC0-69E8-3E84-A2CF-A3ADE159F00D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Tracker/TrackerClient.vcxproj">
+      <Project>F540DA43-5E79-3CD4-A702-D6AD8F8AFF5C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Tracker/TrackerClient2.vcxproj">
+      <Project>E99F3DD2-5C10-33B7-8B1C-08A6D2EC507C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Tracker/TrackerClient3.vcxproj">
+      <Project>190E0354-80F5-3FD3-BD86-6F710FA6C88A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Tracker/TrackerServer.vcxproj">
+      <Project>C8009AE4-FCC5-3391-86DC-983E6C012C43</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Tracker/TrackerServer2.vcxproj">
+      <Project>1A0B1D88-51F4-3392-9760-BFC61CFDA0DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/TrackingData/TrackingDataClient.vcxproj">
+      <Project>5161E4B7-5640-3D3E-B2FD-D2C33EEC2095</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/TrackingData/TrackingDataServer.vcxproj">
+      <Project>795AA918-5C0C-3BE8-B19E-84A6EADB69BF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Trajectory/TrajectoryClient.vcxproj">
+      <Project>3C6D2B9B-F179-3172-87F7-A6A431382263</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Examples/Trajectory/TrajectoryServer.vcxproj">
+      <Project>0A70438B-B04D-35D1-B4FE-EAC623A1C9F1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/gmock-build/gmock.vcxproj">
+      <Project>FB24BD03-3129-36FD-8F53-B85F386B7140</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/gmock-build/gmock_main.vcxproj">
+      <Project>F08EC702-4342-3BEA-9AAB-AF103C27403B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/gmock-build/gtest/gtest.vcxproj">
+      <Project>95FC54B0-4F8C-3B55-8FF4-1A27A73864E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/gmock-build/gtest/gtest_main.vcxproj">
+      <Project>81961BF5-81AD-38AD-8F3C-A9D46E5A5501</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlBindMessageTest.vcxproj">
+      <Project>8DE494D1-9DA9-3F70-9D99-F73B44481E6B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlCapabilityMessageTest.vcxproj">
+      <Project>EA79DF23-192E-35A6-9460-95FCBE8BB6B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlColorTableMessageTest.vcxproj">
+      <Project>377201CA-C884-3475-83DF-D1E2C245FC34</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlCommandMessageTest.vcxproj">
+      <Project>E141AB02-814D-3F44-97B5-4185D476F39A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlConditionVariableTest.vcxproj">
+      <Project>4D8088D0-9D83-3698-AA0B-FECEA1271DFE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlImageMessage2Test.vcxproj">
+      <Project>871BB70F-2BEA-3CC7-8E5F-555E5357C2A4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlImageMessageTest.vcxproj">
+      <Project>527899AF-4584-3409-84A4-377296A26308</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlImageMetaMessageTest.vcxproj">
+      <Project>FD5A979B-E63A-36FD-BD61-B1FD1E44736F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlLabelMetaMessageTest.vcxproj">
+      <Project>D38538EE-50E7-3FA8-8CD8-735134E51124</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlMessageBaseTest.vcxproj">
+      <Project>2807EC72-42DA-3BC2-9293-2D7168D1DC83</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlMessageFactoryTest.vcxproj">
+      <Project>582AFF9E-CDF2-3E96-9A0D-C56B0A34251F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlMultiThreaderTest1.vcxproj">
+      <Project>4582143A-E7D1-326C-A314-0AF9CE46E173</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlMultiThreaderTest2.vcxproj">
+      <Project>A80F6C78-6740-30B1-88F7-E1ABD4ECF28E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlMultiThreaderTest3.vcxproj">
+      <Project>5C657122-38B2-39A6-BF1A-586370A71863</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlNDArrayMessageTest.vcxproj">
+      <Project>77FE3863-9394-3D31-A095-39F9BAD1E179</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlPointMessageTest.vcxproj">
+      <Project>2E436C9E-EFC6-3620-93D1-3156EDB1C786</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlPolyDataMessageTest.vcxproj">
+      <Project>49827F0E-E3EF-34C4-9119-D38CF0B264D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlPositionMessageTest.vcxproj">
+      <Project>8DA6C5FF-08B0-32A6-98FB-164D02F0328D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlSensorMessageTest.vcxproj">
+      <Project>53B6577A-3557-3CBC-A1E1-9D1455E3C555</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlStatusMessageTest.vcxproj">
+      <Project>DB40035D-D7A2-3FC0-B546-BC2B61F3FBD6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlStringMessageTest.vcxproj">
+      <Project>D41329DE-9A9C-3766-ACA8-A9E2CE4E53DD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlTimeStampTest1.vcxproj">
+      <Project>9330172C-1D59-38F7-8E39-94578C1EFC12</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlTrackingDataMessageTest.vcxproj">
+      <Project>38AA88F6-1CA6-32CC-8F4A-9E2EA469A125</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlTrajectoryMessageTest.vcxproj">
+      <Project>75B2EF47-E4C0-348B-A483-B574F62AD28D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlTransformMessageTest.vcxproj">
+      <Project>86C8FBDC-C917-385C-B6B1-DF4DE6E1B49A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_bind_test.vcxproj">
+      <Project>2776B40C-0CD8-39D6-A1C9-732F7F4F89F9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_capability_test.vcxproj">
+      <Project>C998E4A2-3902-3AE1-8217-96AD9FA517F6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_colortable_test.vcxproj">
+      <Project>12844ED0-063B-3EA1-9F0B-14745477A730</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_header_test.vcxproj">
+      <Project>E4BDA720-A77B-353F-B494-6BBD327621EB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_image_test.vcxproj">
+      <Project>EB8A5167-705E-3B30-AA5D-1128B39AE48D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_imgmeta_test.vcxproj">
+      <Project>464B800A-3D74-3426-80BF-FF7A0A54265D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_lbmeta_test.vcxproj">
+      <Project>55D20E07-9918-3B0B-B9D3-3010D4F2E80C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_ndarray_test.vcxproj">
+      <Project>2B88274C-9CBE-3E04-81CC-D7F7D927D841</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_point_test.vcxproj">
+      <Project>0E85C0FB-1A27-3CCB-933B-4EF2FE815C57</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_polydata_test.vcxproj">
+      <Project>25B470CC-1F37-3C93-A486-E43D8DC92FEF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_position_test.vcxproj">
+      <Project>2F351D6E-BD2F-350F-BCAF-3097F5511BE0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_sensor_test.vcxproj">
+      <Project>C968164F-A92D-3769-A662-C16AF3FCF4D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_status_test.vcxproj">
+      <Project>3A87CFE1-B15A-3A9F-9011-F0538FACA189</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_string_test.vcxproj">
+      <Project>D543F073-CF93-3C8A-8800-66D55F9BD54C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_tdata_test.vcxproj">
+      <Project>20E75F61-2DBB-3D62-813E-34648C8B4CE2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_trajectory_test.vcxproj">
+      <Project>6A642227-5E86-32CA-BD17-CF09638CC8FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_transform_test.vcxproj">
+      <Project>D21CC001-8C29-3537-9D5A-DA84B4CBD2D8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_util_test.vcxproj">
+      <Project>17A4733F-3A82-3412-9BE8-56064132C049</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/build/Source/igtlutil/igtlutil.vcxproj">
+      <Project>246D400F-0175-3B08-B1B4-1F678F2B4F5F</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

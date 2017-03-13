@@ -1,0 +1,50 @@
+os:
+  - linux
+  - osx	
+
+language: cpp
+
+compiler:
+  - gcc
+  - clang
+
+
+install:
+  ############################################################################
+  # Install a recent CMake (unless already installed on OS X)
+  ############################################################################
+  - |
+    if [[ "${TRAVIS_OS_NAME}" == "linux" ]]; then
+      DEPS_DIR="${TRAVIS_BUILD_DIR}/deps"
+      mkdir -p ${DEPS_DIR} && cd ${DEPS_DIR}
+      CMAKE_URL="http://www.cmake.org/files/v3.5/cmake-3.5.2-Linux-x86_64.tar.gz"
+      mkdir cmake && travis_retry wget --no-check-certificate --quiet -O - ${CMAKE_URL} | tar --strip-components=1 -xz -C cmake
+      export PATH=${DEPS_DIR}/cmake/bin:${PATH}
+      cd ..
+    else
+      if ! brew ls --version cmake &>/dev/null; then brew install cmake; fi
+    fi
+before_script:
+  - mkdir build
+  - cd    build
+
+script:
+  - cmake -DOpenIGTLink_PROTOCOL_VERSION_3=ON ..
+  - make
+  - cd ..
+  - mkdir TestBuild
+  - cd TestBuild
+  - cmake -DCMAKE_PREFIX_PATH:PATH=../build ../Testing
+  - make 
+  - make test 
+  #########################
+  # Test for version2 build
+  - cd ../build
+  - cmake -DOpenIGTLink_PROTOCOL_VERSION_3=OFF ..
+  - make
+  - cd ../TestBuild
+  - cmake -DCMAKE_PREFIX_PATH:PATH=../build ../Testing
+  - make 
+  - make test
+
+

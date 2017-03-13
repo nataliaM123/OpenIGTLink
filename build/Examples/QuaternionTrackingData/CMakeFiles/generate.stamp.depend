@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/PWP2/src/Examples/QuaternionTrackingData/CMakeLists.txt
+C:/PWP2/build/OpenIGTLinkConfig.cmake
+C:/PWP2/build/OpenIGTLinkTargets.cmake
+C:/PWP2/build/UseOpenIGTLink.cmake
+C:/Users/student/Downloads/cmake-3.7.2-win32-x86/share/cmake-3.7/Modules/CMakeImportBuildSettings.cmake
+C:/PWP2/build/OpenIGTLinkTargets.cmake

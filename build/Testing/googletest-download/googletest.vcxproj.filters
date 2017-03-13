@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeLists.txt" />
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\6fc8cbe277a3016a8f33471a86b51ea8\googletest-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\26978eb47667c367b9db797ffbc573e1\googletest.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\googletest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{32139CE3-B98A-36DF-B5C6-2F2229A64753}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,223 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/PWP2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_f6c72.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2017-03-13 11:27:54.
+Project "C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_f6c72.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f6c72.dir\Debug\".
+  Creating directory "C:\PWP2\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_f6c72.dir\Debug\cmTC_f6c72.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f6c72.dir\Debug\\" /Fd"cmTC_f6c72.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\PWP2\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f6c72.dir\Debug\\" /Fd"cmTC_f6c72.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\PWP2\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\PWP2\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_f6c72.vcxproj]
+Done Building Project "C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_f6c72.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_f6c72.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\PWP2\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_f6c72.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.48
+
+
+Determining if the function getsockname exists in the socket failed with the following output:
+Change Dir: C:/PWP2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_3659f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2017-03-13 11:27:55.
+Project "C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_3659f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3659f.dir\Debug\".
+  Creating directory "C:\PWP2\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_3659f.dir\Debug\cmTC_3659f.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getsockname /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3659f.dir\Debug\\" /Fd"cmTC_3659f.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getsockname /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3659f.dir\Debug\\" /Fd"cmTC_3659f.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\PWP2\build\CMakeFiles\CMakeTmp\Debug\cmTC_3659f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib socket.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/PWP2/build/CMakeFiles/CMakeTmp/Debug/cmTC_3659f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/PWP2/build/CMakeFiles/CMakeTmp/Debug/cmTC_3659f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3659f.dir\Debug\CheckFunctionExists.obj
+LINK : fatal error LNK1104: cannot open file 'socket.lib' [C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_3659f.vcxproj]
+Done Building Project "C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_3659f.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_3659f.vcxproj" (default target) (1) ->
+(Link target) -> 
+  LINK : fatal error LNK1104: cannot open file 'socket.lib' [C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_3659f.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.24
+
+
+Determining if getsockname accepts socklen_t type  failed with the following output:
+Change Dir: C:/PWP2/build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_44e0c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2017-03-13 11:27:56.
+Project "C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_44e0c.dir\Debug\".
+  Creating directory "C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_44e0c.dir\Debug\cmTC_44e0c.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_44e0c.dir\Debug\\" /Fd"cmTC_44e0c.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\PWP2\src\CMake\igtlTestSocklenT.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_44e0c.dir\Debug\\" /Fd"cmTC_44e0c.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\PWP2\src\CMake\igtlTestSocklenT.cxx
+  
+  igtlTestSocklenT.cxx
+C:\PWP2\src\CMake\igtlTestSocklenT.cxx(11): error C2065: 'socklen_t' : undeclared identifier [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj]
+C:\PWP2\src\CMake\igtlTestSocklenT.cxx(11): error C2059: syntax error : ')' [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj]
+C:\PWP2\src\CMake\igtlTestSocklenT.cxx(12): error C2065: 'socklen_t' : undeclared identifier [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj]
+C:\PWP2\src\CMake\igtlTestSocklenT.cxx(12): error C2070: ''unknown-type'': illegal sizeof operand [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj]
+C:\PWP2\src\CMake\igtlTestSocklenT.cxx(11): error C3861: 'getsockname': identifier not found [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj]
+Done Building Project "C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\PWP2\src\CMake\igtlTestSocklenT.cxx(11): error C2065: 'socklen_t' : undeclared identifier [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj]
+  C:\PWP2\src\CMake\igtlTestSocklenT.cxx(11): error C2059: syntax error : ')' [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj]
+  C:\PWP2\src\CMake\igtlTestSocklenT.cxx(12): error C2065: 'socklen_t' : undeclared identifier [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj]
+  C:\PWP2\src\CMake\igtlTestSocklenT.cxx(12): error C2070: ''unknown-type'': illegal sizeof operand [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj]
+  C:\PWP2\src\CMake\igtlTestSocklenT.cxx(11): error C3861: 'getsockname': identifier not found [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_44e0c.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if the SO_REUSEADDR exist failed with the following output:
+Change Dir: C:/PWP2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_ce660.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2017-03-13 11:27:57.
+Project "C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_ce660.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ce660.dir\Debug\".
+  Creating directory "C:\PWP2\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_ce660.dir\Debug\cmTC_ce660.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ce660.dir\Debug\\" /Fd"cmTC_ce660.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\PWP2\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ce660.dir\Debug\\" /Fd"cmTC_ce660.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\PWP2\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\PWP2\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(3): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_ce660.vcxproj]
+Done Building Project "C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_ce660.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_ce660.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\PWP2\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(3): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\PWP2\build\CMakeFiles\CMakeTmp\cmTC_ce660.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.26
+
+File C:/PWP2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_REUSEADDR
+  return ((int*)(&SO_REUSEADDR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if getsockname accepts socklen_t type  failed with the following output:
+Change Dir: C:/PWP2/build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_31060.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2017-03-13 11:28:44.
+Project "C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_31060.dir\Debug\".
+  Creating directory "C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_31060.dir\Debug\cmTC_31060.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_31060.dir\Debug\\" /Fd"cmTC_31060.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\PWP2\src\CMake\igtlTestSocklenT.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_31060.dir\Debug\\" /Fd"cmTC_31060.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\PWP2\src\CMake\igtlTestSocklenT.cxx
+  
+  igtlTestSocklenT.cxx
+C:\PWP2\src\CMake\igtlTestSocklenT.cxx(11): error C2065: 'socklen_t' : undeclared identifier [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj]
+C:\PWP2\src\CMake\igtlTestSocklenT.cxx(11): error C2059: syntax error : ')' [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj]
+C:\PWP2\src\CMake\igtlTestSocklenT.cxx(12): error C2065: 'socklen_t' : undeclared identifier [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj]
+C:\PWP2\src\CMake\igtlTestSocklenT.cxx(12): error C2070: ''unknown-type'': illegal sizeof operand [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj]
+C:\PWP2\src\CMake\igtlTestSocklenT.cxx(11): error C3861: 'getsockname': identifier not found [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj]
+Done Building Project "C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\PWP2\src\CMake\igtlTestSocklenT.cxx(11): error C2065: 'socklen_t' : undeclared identifier [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj]
+  C:\PWP2\src\CMake\igtlTestSocklenT.cxx(11): error C2059: syntax error : ')' [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj]
+  C:\PWP2\src\CMake\igtlTestSocklenT.cxx(12): error C2065: 'socklen_t' : undeclared identifier [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj]
+  C:\PWP2\src\CMake\igtlTestSocklenT.cxx(12): error C2070: ''unknown-type'': illegal sizeof operand [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj]
+  C:\PWP2\src\CMake\igtlTestSocklenT.cxx(11): error C3861: 'getsockname': identifier not found [C:\PWP2\build\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_31060.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.24
+
+

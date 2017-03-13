@@ -1,0 +1,15 @@
+# Target labels
+ googletest
+# Source files and their labels
+C:/PWP2/build/Testing/googletest-download/CMakeFiles/googletest
+C:/PWP2/build/Testing/googletest-download/CMakeLists.txt
+C:/PWP2/build/Testing/googletest-download/CMakeFiles/26978eb47667c367b9db797ffbc573e1/googletest.rule
+C:/PWP2/build/Testing/googletest-download/CMakeFiles/6fc8cbe277a3016a8f33471a86b51ea8/googletest-complete.rule
+C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-install.rule
+C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-mkdir.rule
+C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-download.rule
+C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-update.rule
+C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-patch.rule
+C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-configure.rule
+C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-build.rule
+C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-test.rule

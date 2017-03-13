@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D9D9F7B5-4C8E-39B7-8E10-1AD984DC83C6}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>NightlyMemoryCheck</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/src/CMakeLists.txt;C:\PWP2\src\CMakeLists.txt;C:\PWP2\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\src\igtlConfigure.h.in;C:\PWP2\src\igtl_typeconfig.h.in;C:\PWP2\src\igtlTypeConfig.h.in;C:\PWP2\src\UseOpenIGTLink.cmake.in;C:\PWP2\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/src/CMakeLists.txt;C:\PWP2\src\CMakeLists.txt;C:\PWP2\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\src\igtlConfigure.h.in;C:\PWP2\src\igtl_typeconfig.h.in;C:\PWP2\src\igtlTypeConfig.h.in;C:\PWP2\src\UseOpenIGTLink.cmake.in;C:\PWP2\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/src/CMakeLists.txt;C:\PWP2\src\CMakeLists.txt;C:\PWP2\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\src\igtlConfigure.h.in;C:\PWP2\src\igtl_typeconfig.h.in;C:\PWP2\src\igtlTypeConfig.h.in;C:\PWP2\src\UseOpenIGTLink.cmake.in;C:\PWP2\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/src/CMakeLists.txt;C:\PWP2\src\CMakeLists.txt;C:\PWP2\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\src\igtlConfigure.h.in;C:\PWP2\src\igtl_typeconfig.h.in;C:\PWP2\src\igtlTypeConfig.h.in;C:\PWP2\src\UseOpenIGTLink.cmake.in;C:\PWP2\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\CMakeFiles\8b6c2341527875b27bbf6d8938bf6539\NightlyMemoryCheck.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\ctest.exe -C $(Configuration) -D NightlyMemoryCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/CMakeFiles/8b6c2341527875b27bbf6d8938bf6539/NightlyMemoryCheck.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\CMakeFiles\NightlyMemoryCheck</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\ctest.exe -C $(Configuration) -D NightlyMemoryCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/CMakeFiles/8b6c2341527875b27bbf6d8938bf6539/NightlyMemoryCheck.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\CMakeFiles\NightlyMemoryCheck</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\ctest.exe -C $(Configuration) -D NightlyMemoryCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/CMakeFiles/8b6c2341527875b27bbf6d8938bf6539/NightlyMemoryCheck.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\CMakeFiles\NightlyMemoryCheck</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\ctest.exe -C $(Configuration) -D NightlyMemoryCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/CMakeFiles/8b6c2341527875b27bbf6d8938bf6539/NightlyMemoryCheck.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\CMakeFiles\NightlyMemoryCheck</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\PWP2\build\CMakeFiles\NightlyMemoryCheck" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/PWP2/build/ZERO_CHECK.vcxproj">
+      <Project>21A4B0A2-EFA3-3EDB-B90A-34EB0C298E03</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

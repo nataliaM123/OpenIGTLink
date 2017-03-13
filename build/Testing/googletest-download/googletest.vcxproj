@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{ABECAA83-3A34-3C86-B02F-1DC0D83E2202}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>googletest</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/build/Testing/googletest-download/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/build/Testing/googletest-download -BC:/PWP2/build/Testing/googletest-download --check-stamp-file C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/build/Testing/googletest-download/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/build/Testing/googletest-download -BC:/PWP2/build/Testing/googletest-download --check-stamp-file C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/build/Testing/googletest-download/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/build/Testing/googletest-download -BC:/PWP2/build/Testing/googletest-download --check-stamp-file C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/build/Testing/googletest-download/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/build/Testing/googletest-download -BC:/PWP2/build/Testing/googletest-download --check-stamp-file C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Creating directories for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing download step (download, verify and extract) for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\PWP2\build\Testing
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-download.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\googletest-urlinfo.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing download step (download, verify and extract) for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\PWP2\build\Testing
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-download.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\googletest-urlinfo.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing download step (download, verify and extract) for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\PWP2\build\Testing
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-download.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\googletest-urlinfo.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing download step (download, verify and extract) for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\PWP2\build\Testing
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-download.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\googletest-urlinfo.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No update step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-update.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No update step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-update.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No update step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-update.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No update step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-update.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-patch.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-patch.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No patch step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-patch.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-patch.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No configure step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-configure.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No configure step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-configure.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No configure step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-configure.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No configure step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-configure.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No build step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-build.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No build step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-build.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No build step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-build.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No build step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-build.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No install step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-install.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No install step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-install.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No install step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-install.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No install step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-install.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No test step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-test.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No test step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-test.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No test step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-test.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No test step for 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\PWP2\build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-test.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\6fc8cbe277a3016a8f33471a86b51ea8\googletest-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)/googletest-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/6fc8cbe277a3016a8f33471a86b51ea8/googletest-complete.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)/googletest-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/6fc8cbe277a3016a8f33471a86b51ea8/googletest-complete.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Completed 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)/googletest-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/6fc8cbe277a3016a8f33471a86b51ea8/googletest-complete.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'googletest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)/googletest-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/6fc8cbe277a3016a8f33471a86b51ea8/googletest-complete.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\26978eb47667c367b9db797ffbc573e1\googletest.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/26978eb47667c367b9db797ffbc573e1/googletest.rule;C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\googletest</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/26978eb47667c367b9db797ffbc573e1/googletest.rule;C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\googletest</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/26978eb47667c367b9db797ffbc573e1/googletest.rule;C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\googletest</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/26978eb47667c367b9db797ffbc573e1/googletest.rule;C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\googletest</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\googletest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/PWP2/build/Testing/googletest-download/ZERO_CHECK.vcxproj">
+      <Project>908F5A21-2820-3F1F-8B0B-1F87889782E3</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,98 @@
+version: 1.0.{build}
+
+os: Visual Studio 2015
+
+#Google Test is not build correctly for v120 and v110, but the TestConfigure.h file is a workaround solution for the testing 
+environment:
+  matrix:
+  - Toolset: v140
+  - Toolset: v120  
+  - Toolset: v110
+  
+platform: 
+  - x86
+  - x64
+  - ARM
+
+configuration: 
+  - Debug
+  - Release
+    
+
+build:
+  verbosity: minimal
+  
+branches:
+  #whitelist
+  only:
+    - master
+    - Version3-Development
+    - Test
+      
+clone_depth: 1
+skip_tags: true
+clone_folder: c:\projects\openigtlink
+      
+before_build:
+- ps: |
+    Write-Output "Configuration: $env:CONFIGURATION"
+    Write-Output "Platform: $env:PLATFORM"
+    $generator = switch ($env:TOOLSET)
+    {
+        "v140" {"Visual Studio 14 2015"}
+        "v120" {"Visual Studio 12 2013"}
+        "v110" {"Visual Studio 11 2012"}
+    }
+    $generator = "$generator Win64"
+
+build_script:
+- ps: |
+    mkdir build -Force | Out-Null
+    cd build
+    & cmake -G "$generator" -DOpenIGTLink_PROTOCOL_VERSION_3=ON ..
+    if ($LastExitCode -ne 0) {
+        throw "Exec: $ErrorMessage"
+    }
+    & cmake --build . --config $env:CONFIGURATION
+    if ($LastExitCode -ne 0) {
+        throw "Exec: $ErrorMessage"
+    }
+    mkdir build -Force | Out-Null
+    cd ..
+    mkdir TestBuild
+    cd TestBuild
+    & cmake -G "$generator" -DCMAKE_PREFIX_PATH:PATH=..\build ..\Testing
+    if ($LastExitCode -ne 0) {
+        throw "Exec: $ErrorMessage"
+    }
+    & cmake --build . --config $env:CONFIGURATION
+    if ($LastExitCode -ne 0) {
+        throw "Exec: $ErrorMessage"
+    }
+    & ctest -C $env:CONFIGURATION --output-on-failure
+    if ($LastExitCode -ne 0) {
+        throw "Exec: $ErrorMessage"
+    }
+    cd ..\build
+    & cmake -G "$generator" -DOpenIGTLink_PROTOCOL_VERSION_3=OFF ..
+    if ($LastExitCode -ne 0) {
+        throw "Exec: $ErrorMessage"
+    }
+    & cmake --build . --config $env:CONFIGURATION
+    if ($LastExitCode -ne 0) {
+        throw "Exec: $ErrorMessage"
+    }
+    cd ..\TestBuild
+    & cmake -G "$generator" -DCMAKE_PREFIX_PATH:PATH=..\build ..\Testing
+    if ($LastExitCode -ne 0) {
+        throw "Exec: $ErrorMessage"
+    }
+    & cmake --build . --config $env:CONFIGURATION
+    if ($LastExitCode -ne 0) {
+        throw "Exec: $ErrorMessage"
+    }
+    & ctest -C $env:CONFIGURATION --output-on-failure
+    if ($LastExitCode -ne 0) {
+        throw "Exec: $ErrorMessage"
+    }    
+    
