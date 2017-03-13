@@ -1,4 +1,4 @@
-# Install script for directory: C:/PWP2/src/Examples
+# Install script for directory: C:/PWP2/OpenGL/src/Examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,22 +29,23 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/PWP2/build/Examples/Tracker/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/Imager/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/Status/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/Receiver/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/Thread/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/ImageMeta/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/Point/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/TrackingData/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/QuaternionTrackingData/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/ImageDatabaseServer/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/String/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/Bind/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/PolyData/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/Capability/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/Trajectory/cmake_install.cmake")
-  include("C:/PWP2/build/Examples/SessionManager/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/Tracker/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/Imager/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/Status/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/Receiver/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/Thread/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/ImageMeta/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/Point/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/TrackingData/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/QuaternionTrackingData/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/ImageDatabaseServer/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/String/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/Bind/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/PolyData/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/Capability/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/Trajectory/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/SessionManager/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Examples/Lab_PWP/cmake_install.cmake")
 
 endif()
 

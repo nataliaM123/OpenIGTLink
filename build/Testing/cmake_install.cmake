@@ -1,4 +1,4 @@
-# Install script for directory: C:/PWP2/src/Testing
+# Install script for directory: C:/PWP2/OpenGL/src/Testing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,8 +29,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/PWP2/build/Testing/igtlutil/cmake_install.cmake")
-  include("C:/PWP2/build/Testing/gmock-build/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Testing/igtlutil/cmake_install.cmake")
+  include("C:/PWP2/OpenGL/build/Testing/gmock-build/cmake_install.cmake")
 
 endif()
 

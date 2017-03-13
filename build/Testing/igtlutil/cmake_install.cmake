@@ -1,4 +1,4 @@
-# Install script for directory: C:/PWP2/src/Testing/igtlutil
+# Install script for directory: C:/PWP2/OpenGL/src/Testing/igtlutil
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/PWP2/src
-BuildDirectory: C:/PWP2/build
+SourceDirectory: C:/PWP2/OpenGL/src
+BuildDirectory: C:/PWP2/OpenGL/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -33,7 +33,7 @@ ScpCommand: SCPCOMMAND-NOTFOUND
 NightlyStartTime: 0:30:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Users/student/Downloads/cmake-3.7.2-win32-x86/bin/cmake.exe" "C:/PWP2/src"
+ConfigureCommand: "C:/Users/student/Downloads/cmake-3.7.2-win32-x86/bin/cmake.exe" "C:/PWP2/OpenGL/src"
 MakeCommand: C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -64,9 +64,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: C:/Users/student/AppData/Local/Programs/Git/cmd/git.exe
+UpdateCommand: 
 UpdateOptions: 
-UpdateType: git
+UpdateType: 
 
 # Compiler info
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio 11.0/VC/bin/cl.exe

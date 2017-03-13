@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\PWP2\src\Examples\PolyData\PolyDataClient.cxx">
+    <ClCompile Include="C:\PWP2\OpenGL\src\Examples\PolyData\PolyDataClient.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\src\Examples\PolyData\CMakeLists.txt" />
+    <CustomBuild Include="C:\PWP2\OpenGL\src\Examples\PolyData\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{B2C1A0A3-00B0-3895-8C27-643AAC89D893}</UniqueIdentifier>
+      <UniqueIdentifier>{7268EC7D-2199-355C-A456-4D3FC26FB6B3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

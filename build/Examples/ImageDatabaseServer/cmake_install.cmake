@@ -1,4 +1,4 @@
-# Install script for directory: C:/PWP2/src/Examples/ImageDatabaseServer
+# Install script for directory: C:/PWP2/OpenGL/src/Examples/ImageDatabaseServer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

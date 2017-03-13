@@ -19,32 +19,32 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{AD1748D1-2639-3A62-B4BE-D362D6ABC79C}</ProjectGUID>
+    <ProjectGUID>{CC973B1E-6BEA-3BCE-BA60-CAF703675D01}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>OpenIGTLink</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v110</PlatformToolset>
@@ -58,34 +58,26 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\bin\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\bin\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OpenIGTLink.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OpenIGTLink</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\bin\Release\</OutDir>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\bin\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OpenIGTLink.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OpenIGTLink</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\bin\MinSizeRel\</OutDir>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\bin\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">OpenIGTLink.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">OpenIGTLink</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\bin\RelWithDebInfo\</OutDir>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\bin\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">OpenIGTLink.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">OpenIGTLink</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>UninitializedLocalUsageCheck</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -98,39 +90,28 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
-    <Link>
+    <Lib>
       <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;wsock32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/PWP2/build/bin/Debug/OpenIGTLink.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/PWP2/build/bin/Debug/OpenIGTLink.pdb</ProgramDataBaseFile>
-      <SubSystem>Console</SubSystem>
-      <Version></Version>
-    </Link>
-    <ProjectReference>
-      <LinkLibraryDependencies>false</LinkLibraryDependencies>
-    </ProjectReference>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -141,40 +122,29 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat></DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
-    <Link>
+    <Lib>
       <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;wsock32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>false</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/PWP2/build/bin/Release/OpenIGTLink.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/PWP2/build/bin/Release/OpenIGTLink.pdb</ProgramDataBaseFile>
-      <SubSystem>Console</SubSystem>
-      <Version></Version>
-    </Link>
-    <ProjectReference>
-      <LinkLibraryDependencies>false</LinkLibraryDependencies>
-    </ProjectReference>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -185,40 +155,29 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat></DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
-    <Link>
+    <Lib>
       <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;wsock32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>false</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/PWP2/build/bin/MinSizeRel/OpenIGTLink.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/PWP2/build/bin/MinSizeRel/OpenIGTLink.pdb</ProgramDataBaseFile>
-      <SubSystem>Console</SubSystem>
-      <Version></Version>
-    </Link>
-    <ProjectReference>
-      <LinkLibraryDependencies>false</LinkLibraryDependencies>
-    </ProjectReference>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -230,41 +189,30 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
-    <Link>
+    <Lib>
       <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;wsock32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/PWP2/build/bin/RelWithDebInfo/OpenIGTLink.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/PWP2/build/bin/RelWithDebInfo/OpenIGTLink.pdb</ProgramDataBaseFile>
-      <SubSystem>Console</SubSystem>
-      <Version></Version>
-    </Link>
-    <ProjectReference>
-      <LinkLibraryDependencies>false</LinkLibraryDependencies>
-    </ProjectReference>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\src\Source\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/src/Source/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\PWP2\OpenGL\src\Source\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/Source/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\Source\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\Source\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,12 +220,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/src/Source/CMakeLists.txt;C:\PWP2\src\Source\CMakeLists.txt;C:\PWP2\src\Source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Source\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/src/Source/CMakeLists.txt;C:\PWP2\OpenGL\src\Source\CMakeLists.txt;C:\PWP2\OpenGL\src\Source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Source\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/src/Source/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/Source/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\Source\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\Source\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -285,12 +233,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/src/Source/CMakeLists.txt;C:\PWP2\src\Source\CMakeLists.txt;C:\PWP2\src\Source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Source\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/src/Source/CMakeLists.txt;C:\PWP2\OpenGL\src\Source\CMakeLists.txt;C:\PWP2\OpenGL\src\Source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Source\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/src/Source/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/Source/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\Source\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\Source\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -298,12 +246,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/src/Source/CMakeLists.txt;C:\PWP2\src\Source\CMakeLists.txt;C:\PWP2\src\Source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Source\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/src/Source/CMakeLists.txt;C:\PWP2\OpenGL\src\Source\CMakeLists.txt;C:\PWP2\OpenGL\src\Source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Source\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/src/Source/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/Source/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\Source\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\Source\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -311,256 +259,256 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/src/Source/CMakeLists.txt;C:\PWP2\src\Source\CMakeLists.txt;C:\PWP2\src\Source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Source\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/src/Source/CMakeLists.txt;C:\PWP2\OpenGL\src\Source\CMakeLists.txt;C:\PWP2\OpenGL\src\Source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Source\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_header.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_image.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_position.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_transform.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_types.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_util.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_capability.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_win32header.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlMessageHandler.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlMessageHandlerMacro.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlCapabilityMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlClientSocket.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlConditionVariable.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlCreateObjectFunction.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlFastMutexLock.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlImageMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlImageMessage2.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlLightObject.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlMacro.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlMath.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlMessageBase.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlMessageFactory.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlMessageHeader.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlMultiThreader.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlMutexLock.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlObjectFactory.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlOSUtil.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlObject.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlObjectFactoryBase.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlPositionMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlServerSocket.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlSessionManager.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlSimpleFastMutexLock.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlSmartPointer.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlSocket.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlStatusMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlTimeStamp.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlTransformMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlTypes.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlWin32Header.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlWindows.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlCommon.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_colortable.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_imgmeta.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_lbmeta.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_point.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_tdata.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_qtdata.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_trajectory.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_unit.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_sensor.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_string.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_ndarray.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_bind.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_qtrans.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_polydata.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlColorTableMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlImageMetaMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlLabelMetaMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlPointMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlTrackingDataMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlPolyDataMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlQuaternionTrackingDataMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlTrajectoryMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlStringMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlUnit.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlSensorMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlBindMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlNDArrayMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlCommandMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlQueryMessage.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_command.h" />
-    <ClInclude Include="C:\PWP2\src\Source\igtlutil\igtl_query.h" />
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_header.c" >
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_header.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_image.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_position.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_transform.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_types.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_util.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_capability.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_win32header.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlMessageHandler.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlMessageHandlerMacro.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlCapabilityMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlClientSocket.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlConditionVariable.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlCreateObjectFunction.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlFastMutexLock.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlImageMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlImageMessage2.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlLightObject.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlMacro.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlMath.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlMessageBase.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlMessageFactory.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlMessageHeader.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlMultiThreader.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlMutexLock.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlObjectFactory.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlOSUtil.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlObject.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlObjectFactoryBase.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlPositionMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlServerSocket.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlSessionManager.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlSimpleFastMutexLock.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlSmartPointer.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlSocket.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlStatusMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlTimeStamp.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlTransformMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlTypes.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlWin32Header.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlWindows.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlCommon.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_colortable.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_imgmeta.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_lbmeta.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_point.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_tdata.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_qtdata.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_trajectory.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_unit.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_sensor.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_string.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_ndarray.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_bind.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_qtrans.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_polydata.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlColorTableMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlImageMetaMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlLabelMetaMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlPointMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlTrackingDataMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlPolyDataMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlQuaternionTrackingDataMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlTrajectoryMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlStringMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlUnit.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlSensorMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlBindMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlNDArrayMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlCommandMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlQueryMessage.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_command.h" />
+    <ClInclude Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_query.h" />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_header.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_image.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_image.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_transform.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_transform.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_status.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_status.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_util.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_util.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_position.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_position.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_capability.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_capability.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlClientSocket.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlCapabilityMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlConditionVariable.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlFastMutexLock.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlImageMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlImageMessage2.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlLightObject.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlMath.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlMessageBase.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlMessageFactory.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlMultiThreader.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlMutexLock.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlOSUtil.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlObject.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlObjectFactoryBase.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlPositionMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlServerSocket.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlSessionManager.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlSimpleFastMutexLock.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlSocket.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlStatusMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlTimeStamp.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlTransformMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_colortable.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlClientSocket.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlCapabilityMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlConditionVariable.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlFastMutexLock.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlImageMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlImageMessage2.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlLightObject.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlMath.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlMessageBase.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlMessageFactory.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlMultiThreader.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlMutexLock.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlOSUtil.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlObject.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlObjectFactoryBase.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlPositionMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlServerSocket.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlSessionManager.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlSimpleFastMutexLock.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlSocket.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlStatusMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlTimeStamp.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlTransformMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_colortable.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_imgmeta.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_imgmeta.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_lbmeta.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_lbmeta.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_point.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_point.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_tdata.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_tdata.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_qtdata.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_qtdata.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_trajectory.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_trajectory.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_unit.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_unit.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_sensor.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_sensor.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_string.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_string.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_ndarray.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_ndarray.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_bind.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_bind.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_qtrans.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_qtrans.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_polydata.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_polydata.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlColorTableMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlImageMetaMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlLabelMetaMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlPointMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlTrackingDataMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlPolyDataMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlQuaternionTrackingDataMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlTrajectoryMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlStringMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlUnit.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlSensorMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlBindMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlNDArrayMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlCommandMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlQueryMessage.cxx"  />
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_command.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlColorTableMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlImageMetaMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlLabelMetaMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlPointMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlTrackingDataMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlPolyDataMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlQuaternionTrackingDataMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlTrajectoryMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlStringMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlUnit.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlSensorMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlBindMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlNDArrayMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlCommandMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlQueryMessage.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_command.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\PWP2\src\Source\igtlutil\igtl_query.c" >
+    <ClCompile Include="C:\PWP2\OpenGL\src\Source\igtlutil\igtl_query.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
@@ -568,8 +516,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/PWP2/build/ZERO_CHECK.vcxproj">
-      <Project>21A4B0A2-EFA3-3EDB-B90A-34EB0C298E03</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/ZERO_CHECK.vcxproj">
+      <Project>DBB8F8B5-68A6-35BF-9705-2D5A5F2B9866</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,4 +1,4 @@
-# Install script for directory: C:/PWP2/src/Examples/Receiver
+# Install script for directory: C:/PWP2/OpenGL/src/Examples/Receiver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

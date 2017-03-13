@@ -1,4 +1,4 @@
-# Install script for directory: C:/PWP2/build/Testing/gtest
+# Install script for directory: C:/PWP2/OpenGL/build/Testing/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

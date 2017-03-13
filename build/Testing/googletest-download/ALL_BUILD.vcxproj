@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{26DAD0C3-DBA5-3940-939F-38EE214E3C87}</ProjectGUID>
+    <ProjectGUID>{F139A4D8-EAA0-3091-A16B-87A2F879BD49}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -104,10 +104,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/build/Testing/googletest-download/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/build/Testing/googletest-download -BC:/PWP2/build/Testing/googletest-download --check-stamp-file C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/build/Testing/googletest-download -BC:/PWP2/OpenGL/build/Testing/googletest-download --check-stamp-file C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -115,12 +115,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/build/Testing/googletest-download/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/build/Testing/googletest-download -BC:/PWP2/build/Testing/googletest-download --check-stamp-file C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/build/Testing/googletest-download -BC:/PWP2/OpenGL/build/Testing/googletest-download --check-stamp-file C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -128,12 +128,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/build/Testing/googletest-download/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/build/Testing/googletest-download -BC:/PWP2/build/Testing/googletest-download --check-stamp-file C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/build/Testing/googletest-download -BC:/PWP2/OpenGL/build/Testing/googletest-download --check-stamp-file C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,12 +141,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/build/Testing/googletest-download/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/build/Testing/googletest-download -BC:/PWP2/build/Testing/googletest-download --check-stamp-file C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/build/Testing/googletest-download -BC:/PWP2/OpenGL/build/Testing/googletest-download --check-stamp-file C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -154,22 +154,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/PWP2/build/Testing/googletest-download/ZERO_CHECK.vcxproj">
-      <Project>908F5A21-2820-3F1F-8B0B-1F87889782E3</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/googletest-download/ZERO_CHECK.vcxproj">
+      <Project>A8FC3D96-5B95-3F01-9C44-B1258A93E46A</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/googletest-download/googlemock.vcxproj">
-      <Project>CECA98CA-18CD-30A8-89FD-9E79CF7CD02C</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/googletest-download/googlemock.vcxproj">
+      <Project>E28BE4D3-16D9-336B-86D2-845996AC5A91</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/googletest-download/googletest.vcxproj">
-      <Project>ABECAA83-3A34-3C86-B02F-1DC0D83E2202</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/googletest-download/googletest.vcxproj">
+      <Project>93019655-316F-3DA2-86F7-616BA3F2553E</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,4 +1,4 @@
-C:/PWP2/build/Testing/googletest-download/CMakeFiles/googletest.dir
-C:/PWP2/build/Testing/googletest-download/CMakeFiles/googlemock.dir
-C:/PWP2/build/Testing/googletest-download/CMakeFiles/ALL_BUILD.dir
-C:/PWP2/build/Testing/googletest-download/CMakeFiles/ZERO_CHECK.dir
+C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/googletest.dir
+C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/googlemock.dir
+C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/ALL_BUILD.dir
+C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/ZERO_CHECK.dir

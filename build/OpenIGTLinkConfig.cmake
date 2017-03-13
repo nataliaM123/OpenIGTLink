@@ -10,14 +10,14 @@
 # it is highly probable that it will cause more harm than being useful. 
 # Use OpenIGTLink_INCLUDE_DIRS instead, since OpenIGTLink_SOURCE_DIR may point to non-existent directory
 IF(NOT OpenIGTLink_LEGACY_REMOVE)
-  SET(OpenIGTLink_SOURCE_DIR "C:/PWP2/src")
+  SET(OpenIGTLink_SOURCE_DIR "C:/PWP2/OpenGL/src")
 ENDIF(NOT OpenIGTLink_LEGACY_REMOVE)
 
 # The OpenIGTLink include file directories.
-SET(OpenIGTLink_INCLUDE_DIRS "C:/PWP2/build;C:/PWP2/src/Source;C:/PWP2/src/Source/igtlutil")
+SET(OpenIGTLink_INCLUDE_DIRS "C:/PWP2/OpenGL/build;C:/PWP2/OpenGL/src/Source;C:/PWP2/OpenGL/src/Source/igtlutil")
 
 # The OpenIGTLink library directories.
-SET(OpenIGTLink_LIBRARY_DIRS "C:/PWP2/build/bin")
+SET(OpenIGTLink_LIBRARY_DIRS "C:/PWP2/OpenGL/build/bin")
 
 # The C and C++ flags added by OpenIGTLink to the cmake-configured flags.
 SET(OpenIGTLink_REQUIRED_C_FLAGS "")
@@ -33,13 +33,13 @@ SET(OpenIGTLink_VERSION_PATCH "0")
 SET(OpenIGTLink_PROTOCOL_VERSION "3")
 
 # The location of the UseOpenIGTLink.cmake file.
-SET(OpenIGTLink_USE_FILE "C:/PWP2/build/UseOpenIGTLink.cmake")
+SET(OpenIGTLink_USE_FILE "C:/PWP2/OpenGL/build/UseOpenIGTLink.cmake")
 
 # The build settings file.
-SET(OpenIGTLink_BUILD_SETTINGS_FILE "C:/PWP2/build/OpenIGTLinkBuildSettings.cmake")
+SET(OpenIGTLink_BUILD_SETTINGS_FILE "C:/PWP2/OpenGL/build/OpenIGTLinkBuildSettings.cmake")
 
 # Whether OpenIGTLink was built with shared libraries.
-SET(OpenIGTLink_BUILD_SHARED "ON")
+SET(OpenIGTLink_BUILD_SHARED "OFF")
 
 # Whether OpenIGTLink was built with Tcl wrapping support.
 SET(OpenIGTLink_CSWIG_TCL "")
@@ -54,5 +54,5 @@ SET(OpenIGTLink_CableSwig_DIR "")
 SET(OpenIGTLink_LIBRARIES OpenIGTLink)
 
 # The OpenIGTLink library targets.
-SET(OpenIGTLink_LIBRARY_TARGETS_FILE "C:/PWP2/build/OpenIGTLinkTargets.cmake")
+SET(OpenIGTLink_LIBRARY_TARGETS_FILE "C:/PWP2/OpenGL/build/OpenIGTLinkTargets.cmake")
 include(${OpenIGTLink_LIBRARY_TARGETS_FILE})

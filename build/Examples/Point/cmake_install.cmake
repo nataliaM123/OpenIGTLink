@@ -1,4 +1,4 @@
-# Install script for directory: C:/PWP2/src/Examples/Point
+# Install script for directory: C:/PWP2/OpenGL/src/Examples/Point
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

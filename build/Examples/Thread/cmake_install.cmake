@@ -1,4 +1,4 @@
-# Install script for directory: C:/PWP2/src/Examples/Thread
+# Install script for directory: C:/PWP2/OpenGL/src/Examples/Thread
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

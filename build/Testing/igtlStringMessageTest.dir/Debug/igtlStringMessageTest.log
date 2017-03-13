@@ -1,0 +1,17 @@
+﻿Build started 2017-03-13 12:20:29.
+     1>Project "C:\PWP2\OpenGL\build\Testing\igtlStringMessageTest.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/PWP2/OpenGL/src/Testing/CMakeLists.txt
+         CMake does not need to re-run because C:\PWP2\OpenGL\build\Testing\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\PWP2\OpenGL\src\Source\igtlutil /IC:\PWP2\OpenGL\src\Source /IC:\PWP2\OpenGL\build /IC:\PWP2\OpenGL\build\Testing /IC:\PWP2\OpenGL\build\Testing\gtest\include /IC:\PWP2\OpenGL\build\Testing\gmock\include /IC:\PWP2\OpenGL\build\Source /IC:\PWP2\OpenGL\build\Source\igtlutil /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _VARIADIC_MAX=10 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"igtlStringMessageTest.dir\Debug\\" /Fd"igtlStringMessageTest.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt C:\PWP2\OpenGL\src\Testing\igtlStringMessageTest.cxx
+         igtlStringMessageTest.cxx
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\PWP2\OpenGL\build\bin\Debug\igtlStringMessageTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:/PWP2/OpenGL/build/bin /LIBPATH:C:/PWP2/OpenGL/build/bin/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\bin\Debug\OpenIGTLink.lib ..\bin\Debug\gtest_main.lib ..\bin\Debug\gtest.lib ..\bin\Debug\gmock_main.lib ..\bin\Debug\gmock.lib ws2_32.lib wsock32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/PWP2/OpenGL/build/bin/Debug/igtlStringMessageTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/PWP2/OpenGL/build/bin/Debug/igtlStringMessageTest.lib" /MACHINE:X86 /SAFESEH  /machine:X86 igtlStringMessageTest.dir\Debug\igtlStringMessageTest.obj
+            Creating library C:/PWP2/OpenGL/build/bin/Debug/igtlStringMessageTest.lib and object C:/PWP2/OpenGL/build/bin/Debug/igtlStringMessageTest.exp
+         igtlStringMessageTest.vcxproj -> C:\PWP2\OpenGL\build\bin\Debug\igtlStringMessageTest.exe
+     1>Done Building Project "C:\PWP2\OpenGL\build\Testing\igtlStringMessageTest.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.66

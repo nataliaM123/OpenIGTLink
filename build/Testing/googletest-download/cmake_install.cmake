@@ -1,4 +1,4 @@
-# Install script for directory: C:/PWP2/build/Testing/googletest-download
+# Install script for directory: C:/PWP2/OpenGL/build/Testing/googletest-download
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/PWP2/build/Testing/googletest-download/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/PWP2/OpenGL/build/Testing/googletest-download/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

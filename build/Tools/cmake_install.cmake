@@ -1,4 +1,4 @@
-# Install script for directory: C:/PWP2/src/Tools
+# Install script for directory: C:/PWP2/OpenGL/src/Tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

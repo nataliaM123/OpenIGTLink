@@ -1,0 +1,19 @@
+﻿Build started 2017-03-13 12:18:57.
+     1>Project "C:\PWP2\OpenGL\build\Testing\gmock-build\gmock.vcxproj" on node 5 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/PWP2/OpenGL/build/Testing/gmock/CMakeLists.txt
+         CMake does not need to re-run because C:\PWP2\OpenGL\build\Testing\gmock-build\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\PWP2\OpenGL\src\Source\igtlutil /IC:\PWP2\OpenGL\src\Source /IC:\PWP2\OpenGL\build /IC:\PWP2\OpenGL\build\Testing /IC:\PWP2\OpenGL\build\Testing\gmock\include /IC:\PWP2\OpenGL\build\Testing\gmock /IC:\PWP2\OpenGL\build\Testing\gtest\include /IC:\PWP2\OpenGL\build\Testing\gtest /Zi /nologo /W4 /WX /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D WIN32 /D _WINDOWS /D _UNICODE /D UNICODE /D WIN32 /D _WIN32 /D STRICT /D WIN32_LEAN_AND_MEAN /D GTEST_HAS_PTHREAD=0 /D _HAS_EXCEPTIONS=1 /D _VARIADIC_MAX=10 /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gmock.dir\Debug\\" /Fd"gmock.dir\Debug\vc110.pdb" /Gd /TP /wd4127 /wd4251 /wd4275 /analyze- /errorReport:prompt  -J "C:\PWP2\OpenGL\build\Testing\gtest\src\gtest-all.cc" "C:\PWP2\OpenGL\build\Testing\gmock\src\gmock-all.cc"
+         gtest-all.cc
+         gmock-all.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\PWP2\OpenGL\build\bin\Debug\gmock.lib" /NOLOGO  /machine:X86 "gmock.dir\Debug\gtest-all.obj"
+         "gmock.dir\Debug\gmock-all.obj"
+         gmock.vcxproj -> C:\PWP2\OpenGL\build\bin\Debug\gmock.lib
+     1>Done Building Project "C:\PWP2\OpenGL\build\Testing\gmock-build\gmock.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.93

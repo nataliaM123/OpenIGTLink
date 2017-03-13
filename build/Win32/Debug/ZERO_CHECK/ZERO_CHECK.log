@@ -1,0 +1,35 @@
+﻿Build started 2017-03-13 13:31:16.
+     1>Project "C:\PWP2\OpenGL\build\ZERO_CHECK.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Source/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Source/igtlutil/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Tools/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/Tracker/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/Imager/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/Status/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/Receiver/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/Thread/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/ImageMeta/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/Point/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/TrackingData/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/QuaternionTrackingData/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/ImageDatabaseServer/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/String/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/Bind/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/PolyData/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/Capability/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/Trajectory/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/SessionManager/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Examples/Lab_PWP/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Testing/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Testing/igtlutil/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Testing/gmock-build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/PWP2/OpenGL/build/Testing/gmock-build/gtest/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\PWP2\OpenGL\build\ZERO_CHECK.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.13

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{540BC811-F3D1-34C3-8E12-2AD3A1E5A6EC}</ProjectGUID>
+    <ProjectGUID>{D0A70868-527A-3FDA-B15F-E4C54D8020E1}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>INSTALL</ProjectName>
@@ -65,7 +65,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Testing;C:\PWP2\build\Testing\gmock\include;C:\PWP2\build\Testing\gmock;C:\PWP2\build\Testing\gtest\include;C:\PWP2\build\Testing\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Testing;C:\PWP2\OpenGL\build\Testing\gmock\include;C:\PWP2\OpenGL\build\Testing\gmock;C:\PWP2\OpenGL\build\Testing\gtest\include;C:\PWP2\OpenGL\build\Testing\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -87,7 +87,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Testing;C:\PWP2\build\Testing\gmock\include;C:\PWP2\build\Testing\gmock;C:\PWP2\build\Testing\gtest\include;C:\PWP2\build\Testing\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Testing;C:\PWP2\OpenGL\build\Testing\gmock\include;C:\PWP2\OpenGL\build\Testing\gmock;C:\PWP2\OpenGL\build\Testing\gtest\include;C:\PWP2\OpenGL\build\Testing\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -109,7 +109,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Testing;C:\PWP2\build\Testing\gmock\include;C:\PWP2\build\Testing\gmock;C:\PWP2\build\Testing\gtest\include;C:\PWP2\build\Testing\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Testing;C:\PWP2\OpenGL\build\Testing\gmock\include;C:\PWP2\OpenGL\build\Testing\gmock;C:\PWP2\OpenGL\build\Testing\gtest\include;C:\PWP2\OpenGL\build\Testing\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -131,7 +131,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Testing;C:\PWP2\build\Testing\gmock\include;C:\PWP2\build\Testing\gmock;C:\PWP2\build\Testing\gtest\include;C:\PWP2\build\Testing\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Testing;C:\PWP2\OpenGL\build\Testing\gmock\include;C:\PWP2\OpenGL\build\Testing\gmock;C:\PWP2\OpenGL\build\Testing\gtest\include;C:\PWP2\OpenGL\build\Testing\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -152,7 +152,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\CMakeFiles\c73dc354324b5bf2da1690cc0a6dd6b9\INSTALL_force.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\CMakeFiles\8d4342d248be85feadc9be9001a0da48\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 cd .
@@ -163,8 +163,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/CMakeFiles/c73dc354324b5bf2da1690cc0a6dd6b9/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\gmock-build\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/CMakeFiles/8d4342d248be85feadc9be9001a0da48/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\gmock-build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -176,8 +176,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/CMakeFiles/c73dc354324b5bf2da1690cc0a6dd6b9/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\gmock-build\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/CMakeFiles/8d4342d248be85feadc9be9001a0da48/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\gmock-build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -189,8 +189,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/CMakeFiles/c73dc354324b5bf2da1690cc0a6dd6b9/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\gmock-build\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/CMakeFiles/8d4342d248be85feadc9be9001a0da48/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\gmock-build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -202,17 +202,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/CMakeFiles/c73dc354324b5bf2da1690cc0a6dd6b9/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\gmock-build\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/CMakeFiles/8d4342d248be85feadc9be9001a0da48/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\gmock-build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/PWP2/build/ZERO_CHECK.vcxproj">
-      <Project>21A4B0A2-EFA3-3EDB-B90A-34EB0C298E03</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/ZERO_CHECK.vcxproj">
+      <Project>DBB8F8B5-68A6-35BF-9705-2D5A5F2B9866</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/gmock-build/ALL_BUILD.vcxproj">
-      <Project>22195569-3BAE-36E1-A8E4-F98936A3E9E4</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/gmock-build/ALL_BUILD.vcxproj">
+      <Project>6D03B943-C32A-3504-ACCE-844CE086242E</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{22195569-3BAE-36E1-A8E4-F98936A3E9E4}</ProjectGUID>
+    <ProjectGUID>{6D03B943-C32A-3504-ACCE-844CE086242E}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -65,7 +65,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -75,7 +75,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,7 +85,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -95,7 +95,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\build;C:\PWP2\src\Source;C:\PWP2\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\src\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -104,10 +104,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\src\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/src/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\PWP2\OpenGL\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -115,12 +115,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/src/CMakeLists.txt;C:\PWP2\src\CMakeLists.txt;C:\PWP2\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\src\igtlConfigure.h.in;C:\PWP2\src\igtl_typeconfig.h.in;C:\PWP2\src\igtlTypeConfig.h.in;C:\PWP2\src\UseOpenIGTLink.cmake.in;C:\PWP2\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/src/CMakeLists.txt;C:\PWP2\OpenGL\src\CMakeLists.txt;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\OpenGL\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\OpenGL\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\OpenGL\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\OpenGL\src\igtlConfigure.h.in;C:\PWP2\OpenGL\src\igtl_typeconfig.h.in;C:\PWP2\OpenGL\src\igtlTypeConfig.h.in;C:\PWP2\OpenGL\src\UseOpenIGTLink.cmake.in;C:\PWP2\OpenGL\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\OpenGL\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\OpenGL\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\OpenGL\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\OpenGL\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -128,12 +128,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/src/CMakeLists.txt;C:\PWP2\src\CMakeLists.txt;C:\PWP2\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\src\igtlConfigure.h.in;C:\PWP2\src\igtl_typeconfig.h.in;C:\PWP2\src\igtlTypeConfig.h.in;C:\PWP2\src\UseOpenIGTLink.cmake.in;C:\PWP2\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/src/CMakeLists.txt;C:\PWP2\OpenGL\src\CMakeLists.txt;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\OpenGL\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\OpenGL\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\OpenGL\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\OpenGL\src\igtlConfigure.h.in;C:\PWP2\OpenGL\src\igtl_typeconfig.h.in;C:\PWP2\OpenGL\src\igtlTypeConfig.h.in;C:\PWP2\OpenGL\src\UseOpenIGTLink.cmake.in;C:\PWP2\OpenGL\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\OpenGL\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\OpenGL\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\OpenGL\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\OpenGL\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,12 +141,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/src/CMakeLists.txt;C:\PWP2\src\CMakeLists.txt;C:\PWP2\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\src\igtlConfigure.h.in;C:\PWP2\src\igtl_typeconfig.h.in;C:\PWP2\src\igtlTypeConfig.h.in;C:\PWP2\src\UseOpenIGTLink.cmake.in;C:\PWP2\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/src/CMakeLists.txt;C:\PWP2\OpenGL\src\CMakeLists.txt;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\OpenGL\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\OpenGL\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\OpenGL\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\OpenGL\src\igtlConfigure.h.in;C:\PWP2\OpenGL\src\igtl_typeconfig.h.in;C:\PWP2\OpenGL\src\igtlTypeConfig.h.in;C:\PWP2\OpenGL\src\UseOpenIGTLink.cmake.in;C:\PWP2\OpenGL\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\OpenGL\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\OpenGL\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\OpenGL\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\OpenGL\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -154,289 +154,295 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/src/CMakeLists.txt;C:\PWP2\src\CMakeLists.txt;C:\PWP2\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\src\igtlConfigure.h.in;C:\PWP2\src\igtl_typeconfig.h.in;C:\PWP2\src\igtlTypeConfig.h.in;C:\PWP2\src\UseOpenIGTLink.cmake.in;C:\PWP2\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/src/CMakeLists.txt;C:\PWP2\OpenGL\src\CMakeLists.txt;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\PWP2\OpenGL\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindThreads.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\PWP2\OpenGL\src\CMake\OpenIGTLinkCMakeTests.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\PWP2\OpenGL\src\CMake\igtlTestSocklenT.cxx;C:\PWP2\OpenGL\src\OpenIGTLinkConfigPlatform.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckTypeSize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\PWP2\OpenGL\src\igtlConfigure.h.in;C:\PWP2\OpenGL\src\igtl_typeconfig.h.in;C:\PWP2\OpenGL\src\igtlTypeConfig.h.in;C:\PWP2\OpenGL\src\UseOpenIGTLink.cmake.in;C:\PWP2\OpenGL\src\GenerateOpenIGTLinkConfig.cmake;C:\PWP2\OpenGL\src\OpenIGTLinkConfig.cmake.in;C:\PWP2\OpenGL\src\OpenIGTLinkConfig.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Dart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindDart.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTest.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;C:\PWP2\OpenGL\src\DartConfig.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CTestTargets.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\DartConfiguration.tcl.in;C:\PWP2\OpenGL\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/PWP2/build/ZERO_CHECK.vcxproj">
-      <Project>21A4B0A2-EFA3-3EDB-B90A-34EB0C298E03</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/ZERO_CHECK.vcxproj">
+      <Project>DBB8F8B5-68A6-35BF-9705-2D5A5F2B9866</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Bind/BindClient.vcxproj">
-      <Project>601AAC31-49CE-3EF4-BEE2-7C5543F28E24</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Bind/BindClient.vcxproj">
+      <Project>F1C6E2D3-A839-3287-A171-AFF851626B38</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Capability/CapabilityClient.vcxproj">
-      <Project>59FCF621-1636-37E7-BD10-8ED23E78FFD4</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Capability/CapabilityClient.vcxproj">
+      <Project>ED6E7705-C8CA-3101-A825-1DAE010051AA</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Capability/CapabilityServer.vcxproj">
-      <Project>7A89B8D1-FA93-3F1D-91E8-C5B4AF30E658</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Capability/CapabilityServer.vcxproj">
+      <Project>3E575411-00D7-31BA-94D9-DF7215CC50D0</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/ImageDatabaseServer/ImageDatabaseServer.vcxproj">
-      <Project>8D3E5CBE-9981-329C-9E47-5BF174D6CC41</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/ImageDatabaseServer/ImageDatabaseServer.vcxproj">
+      <Project>6D3438B7-57A0-30A6-BB94-ED090B2312CA</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/ImageMeta/ImageMetaClient.vcxproj">
-      <Project>C4F1A8BF-63CF-3082-8E51-B7AEA50661BE</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/ImageMeta/ImageMetaClient.vcxproj">
+      <Project>799B28DD-98C5-3207-95E3-4B7E5B907B18</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/ImageMeta/ImageMetaServer.vcxproj">
-      <Project>344DCF3B-DBCE-3E1B-9A9F-7FEBD012F2F3</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/ImageMeta/ImageMetaServer.vcxproj">
+      <Project>EC4F2FDF-8DCE-38DA-8EF5-A6AC2BCD5763</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Imager/ImagerClient.vcxproj">
-      <Project>9CB54D59-4800-3642-AD14-15C3710CEED4</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Imager/ImagerClient.vcxproj">
+      <Project>BD750E4C-72F9-3646-9602-AE1CDA132A8E</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Imager/ImagerClient2.vcxproj">
-      <Project>23BAEA41-4D23-3DA7-A707-4D9060409F3B</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Imager/ImagerClient2.vcxproj">
+      <Project>25D9A023-344D-3679-AE3D-6E04D70D1C3D</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Imager/ImagerClient3.vcxproj">
-      <Project>E7C22183-9D38-3915-9F65-A0DCFDFC5A94</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Imager/ImagerClient3.vcxproj">
+      <Project>B7FF4C14-3012-345F-B756-789835F22B86</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Imager/ImagerServer.vcxproj">
-      <Project>7AD551E6-00DF-331D-9843-A4A2FE96DDF9</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Imager/ImagerServer.vcxproj">
+      <Project>C90E9A39-0A83-3AAB-B659-A9EA52881725</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Imager/ImagerServer3.vcxproj">
-      <Project>07A80242-B30A-3133-8337-B81FA80BB99F</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Imager/ImagerServer3.vcxproj">
+      <Project>76D0A1BC-85E3-378F-8A1F-FDBD643203A9</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/ImageMeta/LabelMetaClient.vcxproj">
-      <Project>0512504B-19D9-3F94-9434-48F1917DBA50</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/ImageMeta/LabelMetaClient.vcxproj">
+      <Project>A8C2A2C2-350E-3E9E-9C6D-9D4D4856D7C2</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/ImageMeta/LabelMetaServer.vcxproj">
-      <Project>2A1A8073-CF18-39EC-ACCA-5ED6E669F71B</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/ImageMeta/LabelMetaServer.vcxproj">
+      <Project>BBB5B181-9000-3359-BB2B-2AB540C5DD5A</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Thread/MultipleMethodExecute.vcxproj">
-      <Project>7D7DAD7E-F9F5-30E8-8F81-DA30DBF93AD3</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Thread/MultipleMethodExecute.vcxproj">
+      <Project>E9109A62-15AF-3221-B65D-444AF2E5DC38</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Source/OpenIGTLink.vcxproj">
-      <Project>AD1748D1-2639-3A62-B4BE-D362D6ABC79C</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Lab_PWP/NowyKlient.vcxproj">
+      <Project>4D9DDB6E-8830-3AD9-BE81-031A07AC4464</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Point/PointClient.vcxproj">
-      <Project>E95D1C2F-EB82-3877-9699-ABF3A77F3F07</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Lab_PWP/NowySerwer.vcxproj">
+      <Project>222AAB40-79DB-3FDA-974E-17BC4B9D3EE2</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Point/PointClient3.vcxproj">
-      <Project>6408F704-801D-3A12-9B74-81B4108A6AFF</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Source/OpenIGTLink.vcxproj">
+      <Project>CC973B1E-6BEA-3BCE-BA60-CAF703675D01</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Point/PointListServer.vcxproj">
-      <Project>E5BE41DE-F5BC-33D1-9ACF-6AB61A776614</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Point/PointClient.vcxproj">
+      <Project>B7048AC6-1224-33EF-904A-ADD9A2AFBCE4</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Point/PointServer.vcxproj">
-      <Project>C8162D92-D7C5-3DC4-926E-48AA7D325FF7</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Point/PointClient3.vcxproj">
+      <Project>A141DBFC-6322-3C51-B357-75E0B9EC52F2</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Point/PointServer3.vcxproj">
-      <Project>53326669-2B09-35BB-9AB7-3AA6E8735038</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Point/PointListServer.vcxproj">
+      <Project>C64E634C-5C18-3A72-8AC2-368F8216189A</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/PolyData/PolyDataClient.vcxproj">
-      <Project>3F0F5843-A9AE-371C-B814-320BBA824B01</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Point/PointServer.vcxproj">
+      <Project>0688592B-430E-3F2C-84C4-CE0897D90B24</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/PolyData/PolyDataServer.vcxproj">
-      <Project>0E5F9C50-4686-3167-885C-D8911458A914</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Point/PointServer3.vcxproj">
+      <Project>94481B1D-1D12-3A2F-82FC-9346AF95BAD4</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/QuaternionTrackingData/QuaternionTrackingDataClient.vcxproj">
-      <Project>4E890481-6EAA-32E4-ADCF-887C2338C522</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/PolyData/PolyDataClient.vcxproj">
+      <Project>5C2FE8B4-DB8F-3867-9D13-F8281F360E5B</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.vcxproj">
-      <Project>33D248C5-9CE3-3666-A7EF-1CB28AC4C79E</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/PolyData/PolyDataServer.vcxproj">
+      <Project>52EB1699-1006-3D57-8323-AFEE72E147F2</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Receiver/ReceiveClient.vcxproj">
-      <Project>0C8D94D0-EF5F-3966-9321-4E79CC4FF36F</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/QuaternionTrackingData/QuaternionTrackingDataClient.vcxproj">
+      <Project>9BBA7FC3-7556-3CC8-B201-745C80F6C0A5</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Receiver/ReceiveServer.vcxproj">
-      <Project>90BBD73A-EB7C-3AFC-95A5-9918860EB765</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.vcxproj">
+      <Project>F6DDA152-DFC2-3FC5-95AF-40E9C01A406E</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/SessionManager/SessionManagerServer.vcxproj">
-      <Project>154D3455-E21F-3DF9-BE3F-FCA39439BDD8</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Receiver/ReceiveClient.vcxproj">
+      <Project>88D8ACE7-6084-35E2-92E9-4D95CE7A542E</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Thread/SingleMethodExecute.vcxproj">
-      <Project>08B547D8-B71D-3131-8204-26463FF2818B</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Receiver/ReceiveServer.vcxproj">
+      <Project>51C774CB-7C9A-3D23-846B-63D5B3474657</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Thread/SpawnThread.vcxproj">
-      <Project>F3F1D115-3E39-3A17-9B49-05C327A10653</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/SessionManager/SessionManagerServer.vcxproj">
+      <Project>960F94D3-7C27-3DF3-9A12-3A0F03D622C1</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Status/StatusClient.vcxproj">
-      <Project>94DC061D-7205-3F16-883B-1D6062E3DE92</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Thread/SingleMethodExecute.vcxproj">
+      <Project>DEA3460F-1403-3F1D-9063-70B4ED257B32</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Status/StatusServer.vcxproj">
-      <Project>C7F2EA49-F196-3002-B8E4-37C9F5146814</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Thread/SpawnThread.vcxproj">
+      <Project>033270C4-098D-3387-B044-3A76F119FF71</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/String/StringClient.vcxproj">
-      <Project>8EEB10C6-A751-3DF2-9719-383EE8C1362F</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Status/StatusClient.vcxproj">
+      <Project>52CC9CB1-6C01-3720-9455-BD774B3D95D0</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/String/StringEchoServer.vcxproj">
-      <Project>71880A24-934C-3BFB-BB98-0A0C27612F0D</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Status/StatusServer.vcxproj">
+      <Project>B7038E1C-4C77-3067-B605-8C5C6543737F</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/String/StringServer.vcxproj">
-      <Project>6C44CDC0-69E8-3E84-A2CF-A3ADE159F00D</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/String/StringClient.vcxproj">
+      <Project>41D4B03C-ACFE-3215-8519-825FBEF11367</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Tracker/TrackerClient.vcxproj">
-      <Project>F540DA43-5E79-3CD4-A702-D6AD8F8AFF5C</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/String/StringEchoServer.vcxproj">
+      <Project>2A473358-72E3-33BF-9CB3-2344B0BBEE4A</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Tracker/TrackerClient2.vcxproj">
-      <Project>E99F3DD2-5C10-33B7-8B1C-08A6D2EC507C</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/String/StringServer.vcxproj">
+      <Project>F839AC92-D1B6-30D4-A41D-C9C8B51CFDCC</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Tracker/TrackerClient3.vcxproj">
-      <Project>190E0354-80F5-3FD3-BD86-6F710FA6C88A</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Tracker/TrackerClient.vcxproj">
+      <Project>00A2274F-1C2E-3B93-901A-79CD92B2E6CD</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Tracker/TrackerServer.vcxproj">
-      <Project>C8009AE4-FCC5-3391-86DC-983E6C012C43</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Tracker/TrackerClient2.vcxproj">
+      <Project>EF2A00AF-2736-339F-B404-AAF568B48DF7</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Tracker/TrackerServer2.vcxproj">
-      <Project>1A0B1D88-51F4-3392-9760-BFC61CFDA0DA</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Tracker/TrackerClient3.vcxproj">
+      <Project>B87EDB70-C3B8-3B30-A887-3B5591D40D62</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/TrackingData/TrackingDataClient.vcxproj">
-      <Project>5161E4B7-5640-3D3E-B2FD-D2C33EEC2095</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Tracker/TrackerServer.vcxproj">
+      <Project>7E96157C-264B-3EBC-8DB3-9E53375792EC</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/TrackingData/TrackingDataServer.vcxproj">
-      <Project>795AA918-5C0C-3BE8-B19E-84A6EADB69BF</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Tracker/TrackerServer2.vcxproj">
+      <Project>D7D3C4BC-C06A-3540-BD11-D235C3008276</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Trajectory/TrajectoryClient.vcxproj">
-      <Project>3C6D2B9B-F179-3172-87F7-A6A431382263</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/TrackingData/TrackingDataClient.vcxproj">
+      <Project>841DEBF6-9B83-30E1-A4ED-D5A55BEE5766</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/Trajectory/TrajectoryServer.vcxproj">
-      <Project>0A70438B-B04D-35D1-B4FE-EAC623A1C9F1</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/TrackingData/TrackingDataServer.vcxproj">
+      <Project>74547CA2-78BA-3E5B-BDDE-1E53B34DB576</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/gmock-build/gmock.vcxproj">
-      <Project>FB24BD03-3129-36FD-8F53-B85F386B7140</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Trajectory/TrajectoryClient.vcxproj">
+      <Project>931F2CD8-5D06-313A-8D55-8E2AE7AB53B8</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/gmock-build/gmock_main.vcxproj">
-      <Project>F08EC702-4342-3BEA-9AAB-AF103C27403B</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/Trajectory/TrajectoryServer.vcxproj">
+      <Project>8C067556-29F7-3C10-A87F-E8B2DF7D7B21</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/gmock-build/gtest/gtest.vcxproj">
-      <Project>95FC54B0-4F8C-3B55-8FF4-1A27A73864E4</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/gmock-build/gmock.vcxproj">
+      <Project>A9455F87-A380-3464-8B62-2C639E28C90D</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/gmock-build/gtest/gtest_main.vcxproj">
-      <Project>81961BF5-81AD-38AD-8F3C-A9D46E5A5501</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/gmock-build/gmock_main.vcxproj">
+      <Project>97180481-50F1-3680-B6E5-D55DA972FBD8</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlBindMessageTest.vcxproj">
-      <Project>8DE494D1-9DA9-3F70-9D99-F73B44481E6B</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/gmock-build/gtest/gtest.vcxproj">
+      <Project>999215F0-2E39-3363-A5AE-44763210BB87</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlCapabilityMessageTest.vcxproj">
-      <Project>EA79DF23-192E-35A6-9460-95FCBE8BB6B2</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/gmock-build/gtest/gtest_main.vcxproj">
+      <Project>F02416A8-F90E-3498-9F23-39CF87147B10</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlColorTableMessageTest.vcxproj">
-      <Project>377201CA-C884-3475-83DF-D1E2C245FC34</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlBindMessageTest.vcxproj">
+      <Project>83A23D3D-377D-3A92-9043-9A7C27FFA71F</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlCommandMessageTest.vcxproj">
-      <Project>E141AB02-814D-3F44-97B5-4185D476F39A</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlCapabilityMessageTest.vcxproj">
+      <Project>F20F6984-FB28-3EE7-B1D1-BA6CF357F8DB</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlConditionVariableTest.vcxproj">
-      <Project>4D8088D0-9D83-3698-AA0B-FECEA1271DFE</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlColorTableMessageTest.vcxproj">
+      <Project>FA933D6E-89B2-3704-8AE8-10F97BB4859F</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlImageMessage2Test.vcxproj">
-      <Project>871BB70F-2BEA-3CC7-8E5F-555E5357C2A4</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlCommandMessageTest.vcxproj">
+      <Project>C16FDC63-63C1-3255-9B0F-4E519190B621</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlImageMessageTest.vcxproj">
-      <Project>527899AF-4584-3409-84A4-377296A26308</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlConditionVariableTest.vcxproj">
+      <Project>88733452-3838-3BC5-9EA8-D152735EA496</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlImageMetaMessageTest.vcxproj">
-      <Project>FD5A979B-E63A-36FD-BD61-B1FD1E44736F</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlImageMessage2Test.vcxproj">
+      <Project>0F3A8773-85AD-36F6-B8B8-BD602A013D81</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlLabelMetaMessageTest.vcxproj">
-      <Project>D38538EE-50E7-3FA8-8CD8-735134E51124</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlImageMessageTest.vcxproj">
+      <Project>344E739C-DCB5-3FDC-BD65-7894F5A17F9F</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlMessageBaseTest.vcxproj">
-      <Project>2807EC72-42DA-3BC2-9293-2D7168D1DC83</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlImageMetaMessageTest.vcxproj">
+      <Project>80C36C03-7E0C-36C9-9778-84D456C851A4</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlMessageFactoryTest.vcxproj">
-      <Project>582AFF9E-CDF2-3E96-9A0D-C56B0A34251F</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlLabelMetaMessageTest.vcxproj">
+      <Project>23F5171B-20CF-3BAA-90F8-9A8ECA971311</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlMultiThreaderTest1.vcxproj">
-      <Project>4582143A-E7D1-326C-A314-0AF9CE46E173</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlMessageBaseTest.vcxproj">
+      <Project>FE718BB0-2097-320C-9049-236D57791E76</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlMultiThreaderTest2.vcxproj">
-      <Project>A80F6C78-6740-30B1-88F7-E1ABD4ECF28E</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlMessageFactoryTest.vcxproj">
+      <Project>3FEDA1A7-1124-38CE-935E-2BE1FD5F1821</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlMultiThreaderTest3.vcxproj">
-      <Project>5C657122-38B2-39A6-BF1A-586370A71863</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlMultiThreaderTest1.vcxproj">
+      <Project>C448E3CC-D035-35E0-AF54-956DDF1937D2</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlNDArrayMessageTest.vcxproj">
-      <Project>77FE3863-9394-3D31-A095-39F9BAD1E179</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlMultiThreaderTest2.vcxproj">
+      <Project>01800B0A-7D65-330E-98B2-5F687CFE40A4</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlPointMessageTest.vcxproj">
-      <Project>2E436C9E-EFC6-3620-93D1-3156EDB1C786</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlMultiThreaderTest3.vcxproj">
+      <Project>2790B33E-E5F9-374E-BCEA-276553B79ED9</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlPolyDataMessageTest.vcxproj">
-      <Project>49827F0E-E3EF-34C4-9119-D38CF0B264D0</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlNDArrayMessageTest.vcxproj">
+      <Project>293A4424-3225-3347-861A-B7A1A8FC7661</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlPositionMessageTest.vcxproj">
-      <Project>8DA6C5FF-08B0-32A6-98FB-164D02F0328D</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlPointMessageTest.vcxproj">
+      <Project>D64F7F82-33C2-3615-86A0-E19FFF581222</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlSensorMessageTest.vcxproj">
-      <Project>53B6577A-3557-3CBC-A1E1-9D1455E3C555</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlPolyDataMessageTest.vcxproj">
+      <Project>78BDCC4E-3BD6-3A37-8914-9E6FEDE669B6</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlStatusMessageTest.vcxproj">
-      <Project>DB40035D-D7A2-3FC0-B546-BC2B61F3FBD6</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlPositionMessageTest.vcxproj">
+      <Project>67979061-78BF-33CE-952E-DBB8960411F2</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlStringMessageTest.vcxproj">
-      <Project>D41329DE-9A9C-3766-ACA8-A9E2CE4E53DD</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlSensorMessageTest.vcxproj">
+      <Project>0FF8758B-5B00-3A16-89D9-EEE3C94334E8</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlTimeStampTest1.vcxproj">
-      <Project>9330172C-1D59-38F7-8E39-94578C1EFC12</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlStatusMessageTest.vcxproj">
+      <Project>AFD240A2-3AB9-36F6-A7BA-24E1A51A2209</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlTrackingDataMessageTest.vcxproj">
-      <Project>38AA88F6-1CA6-32CC-8F4A-9E2EA469A125</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlStringMessageTest.vcxproj">
+      <Project>7EC1B10A-3504-33D2-90EC-9CD5DD577441</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlTrajectoryMessageTest.vcxproj">
-      <Project>75B2EF47-E4C0-348B-A483-B574F62AD28D</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlTimeStampTest1.vcxproj">
+      <Project>4E72677F-9CAE-34BA-8F65-2B9599EA1985</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlTransformMessageTest.vcxproj">
-      <Project>86C8FBDC-C917-385C-B6B1-DF4DE6E1B49A</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlTrackingDataMessageTest.vcxproj">
+      <Project>012EECF0-0A4B-38FF-92D2-F7E51910336B</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_bind_test.vcxproj">
-      <Project>2776B40C-0CD8-39D6-A1C9-732F7F4F89F9</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlTrajectoryMessageTest.vcxproj">
+      <Project>D2282017-EDB7-318E-8101-79282C686757</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_capability_test.vcxproj">
-      <Project>C998E4A2-3902-3AE1-8217-96AD9FA517F6</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlTransformMessageTest.vcxproj">
+      <Project>D07E99E0-E7C8-356D-B72B-D0DFE3117253</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_colortable_test.vcxproj">
-      <Project>12844ED0-063B-3EA1-9F0B-14745477A730</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_bind_test.vcxproj">
+      <Project>BBB20B8E-F5B7-3484-B552-E5313663C69F</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_header_test.vcxproj">
-      <Project>E4BDA720-A77B-353F-B494-6BBD327621EB</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_capability_test.vcxproj">
+      <Project>A2F0E0FB-E2F3-3BED-B177-37B03F5D08F6</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_image_test.vcxproj">
-      <Project>EB8A5167-705E-3B30-AA5D-1128B39AE48D</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_colortable_test.vcxproj">
+      <Project>31FC690D-C545-32AF-8D40-84EF1825A18B</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_imgmeta_test.vcxproj">
-      <Project>464B800A-3D74-3426-80BF-FF7A0A54265D</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_header_test.vcxproj">
+      <Project>D616A45B-9E7B-3756-96EB-F21004BEF8C8</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_lbmeta_test.vcxproj">
-      <Project>55D20E07-9918-3B0B-B9D3-3010D4F2E80C</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_image_test.vcxproj">
+      <Project>6C3DD66B-C454-33C1-AA26-D47D98212BB0</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_ndarray_test.vcxproj">
-      <Project>2B88274C-9CBE-3E04-81CC-D7F7D927D841</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_imgmeta_test.vcxproj">
+      <Project>B0242AD5-3900-38C8-B79C-4541B6E0C808</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_point_test.vcxproj">
-      <Project>0E85C0FB-1A27-3CCB-933B-4EF2FE815C57</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_lbmeta_test.vcxproj">
+      <Project>E2DEBA6B-8A6E-3C4B-8218-059F4C632381</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_polydata_test.vcxproj">
-      <Project>25B470CC-1F37-3C93-A486-E43D8DC92FEF</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_ndarray_test.vcxproj">
+      <Project>C195FDA3-4328-3BF0-A375-E10067A307C5</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_position_test.vcxproj">
-      <Project>2F351D6E-BD2F-350F-BCAF-3097F5511BE0</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_point_test.vcxproj">
+      <Project>2C53936C-06EB-3716-860D-6BC145188C1A</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_sensor_test.vcxproj">
-      <Project>C968164F-A92D-3769-A662-C16AF3FCF4D5</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_polydata_test.vcxproj">
+      <Project>A2F3CB61-BC3F-3C94-8A01-E14B0EC0DEA7</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_status_test.vcxproj">
-      <Project>3A87CFE1-B15A-3A9F-9011-F0538FACA189</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_position_test.vcxproj">
+      <Project>B477401D-2DD7-301B-AAA3-520BAFF4745C</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_string_test.vcxproj">
-      <Project>D543F073-CF93-3C8A-8800-66D55F9BD54C</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_sensor_test.vcxproj">
+      <Project>CD3E2CAF-81B6-3DC4-B3B2-282A84B3425F</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_tdata_test.vcxproj">
-      <Project>20E75F61-2DBB-3D62-813E-34648C8B4CE2</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_status_test.vcxproj">
+      <Project>94B1D619-5D4C-3C3A-B4D6-CFCDB1EA8A18</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_trajectory_test.vcxproj">
-      <Project>6A642227-5E86-32CA-BD17-CF09638CC8FC</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_string_test.vcxproj">
+      <Project>E52AC395-2F63-3F48-82C3-F78961375879</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_transform_test.vcxproj">
-      <Project>D21CC001-8C29-3537-9D5A-DA84B4CBD2D8</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_tdata_test.vcxproj">
+      <Project>C94ED128-81F8-3C49-A3BC-E17DFC9E2026</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Testing/igtlutil/igtl_util_test.vcxproj">
-      <Project>17A4733F-3A82-3412-9BE8-56064132C049</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_trajectory_test.vcxproj">
+      <Project>ADB581D9-65DC-3C0D-AFA0-7AE26FBEABD2</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Source/igtlutil/igtlutil.vcxproj">
-      <Project>246D400F-0175-3B08-B1B4-1F678F2B4F5F</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_transform_test.vcxproj">
+      <Project>BF68AFFD-289B-322D-A69C-1F0D044D2EBD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/igtlutil/igtl_util_test.vcxproj">
+      <Project>1A9F0A48-806B-3C66-A3A0-0806BB69B979</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Source/igtlutil/igtlutil.vcxproj">
+      <Project>1DBE145F-F42B-31FC-A7EA-BD55B065F78A</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,0 +1,10 @@
+﻿Build started 2017-03-13 12:20:46.
+     1>Project "C:\PWP2\OpenGL\build\ALL_BUILD.vcxproj" on node 4 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/PWP2/OpenGL/src/CMakeLists.txt
+         CMake does not need to re-run because C:\PWP2\OpenGL\build\CMakeFiles\generate.stamp is up-to-date.
+     1>Done Building Project "C:\PWP2\OpenGL\build\ALL_BUILD.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.60

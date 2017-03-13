@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\26978eb47667c367b9db797ffbc573e1\generate.stamp.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\6211c0123f6e9cd2fc891c8297400c65\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{32139CE3-B98A-36DF-B5C6-2F2229A64753}</UniqueIdentifier>
+      <UniqueIdentifier>{B43245F2-E22F-3645-AAE1-9E5CB1952BB5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

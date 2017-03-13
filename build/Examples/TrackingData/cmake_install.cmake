@@ -1,4 +1,4 @@
-# Install script for directory: C:/PWP2/src/Examples/TrackingData
+# Install script for directory: C:/PWP2/OpenGL/src/Examples/TrackingData
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

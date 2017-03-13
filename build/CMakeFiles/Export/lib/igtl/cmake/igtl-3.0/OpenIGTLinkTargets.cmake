@@ -52,7 +52,7 @@ if(_IMPORT_PREFIX STREQUAL "/")
 endif()
 
 # Create imported target OpenIGTLink
-add_library(OpenIGTLink SHARED IMPORTED)
+add_library(OpenIGTLink STATIC IMPORTED)
 
 set_target_properties(OpenIGTLink PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/igtl"

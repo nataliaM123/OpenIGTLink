@@ -1,0 +1,56 @@
+﻿Build started 2017-03-13 12:19:15.
+     1>Project "C:\PWP2\OpenGL\build\Source\igtlutil\igtlutil.vcxproj" on node 4 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/PWP2/OpenGL/src/Source/igtlutil/CMakeLists.txt
+         CMake does not need to re-run because C:\PWP2\OpenGL\build\Source\igtlutil\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\PWP2\OpenGL\build /IC:\PWP2\OpenGL\src\Source /IC:\PWP2\OpenGL\src\Source\igtlutil /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"igtlutil.dir\Debug\\" /Fd"igtlutil.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt C:\PWP2\OpenGL\src\Source\igtlutil\igtl_header.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_image.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_position.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_transform.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_util.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_capability.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_colortable.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_imgmeta.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_lbmeta.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_point.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_tdata.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_qtdata.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_trajectory.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_unit.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_sensor.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_string.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_ndarray.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_bind.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_qtrans.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_polydata.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_command.c
+         igtl_header.c
+         igtl_image.c
+         igtl_position.c
+         igtl_transform.c
+         igtl_util.c
+         igtl_capability.c
+         igtl_colortable.c
+         igtl_imgmeta.c
+         igtl_lbmeta.c
+         igtl_point.c
+         igtl_tdata.c
+         igtl_qtdata.c
+         igtl_trajectory.c
+         igtl_unit.c
+         igtl_sensor.c
+         igtl_string.c
+         igtl_ndarray.c
+         igtl_bind.c
+         igtl_qtrans.c
+         igtl_polydata.c
+         igtl_command.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\PWP2\OpenGL\build\bin\Debug\igtlutil.lib" /NOLOGO  /machine:X86 igtlutil.dir\Debug\igtl_header.obj
+         igtlutil.dir\Debug\igtl_image.obj
+         igtlutil.dir\Debug\igtl_position.obj
+         igtlutil.dir\Debug\igtl_transform.obj
+         igtlutil.dir\Debug\igtl_util.obj
+         igtlutil.dir\Debug\igtl_capability.obj
+         igtlutil.dir\Debug\igtl_colortable.obj
+         igtlutil.dir\Debug\igtl_imgmeta.obj
+         igtlutil.dir\Debug\igtl_lbmeta.obj
+         igtlutil.dir\Debug\igtl_point.obj
+         igtlutil.dir\Debug\igtl_tdata.obj
+         igtlutil.dir\Debug\igtl_qtdata.obj
+         igtlutil.dir\Debug\igtl_trajectory.obj
+         igtlutil.dir\Debug\igtl_unit.obj
+         igtlutil.dir\Debug\igtl_sensor.obj
+         igtlutil.dir\Debug\igtl_string.obj
+         igtlutil.dir\Debug\igtl_ndarray.obj
+         igtlutil.dir\Debug\igtl_bind.obj
+         igtlutil.dir\Debug\igtl_qtrans.obj
+         igtlutil.dir\Debug\igtl_polydata.obj
+         igtlutil.dir\Debug\igtl_command.obj
+         igtlutil.vcxproj -> C:\PWP2\OpenGL\build\bin\Debug\igtlutil.lib
+     1>Done Building Project "C:\PWP2\OpenGL\build\Source\igtlutil\igtlutil.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.29

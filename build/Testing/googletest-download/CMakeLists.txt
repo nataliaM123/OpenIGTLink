@@ -6,8 +6,8 @@ ExternalProject_Add(googletest
   URL https://github.com/google/googletest/archive/release-1.7.0.zip
   #GIT_REPOSITORY    https://github.com/google/googletest.git
   #GIT_TAG           master
-  SOURCE_DIR        "C:/PWP2/build/Testing/gtest"
-  BINARY_DIR        "C:/PWP2/build/Testing/gtest-build"
+  SOURCE_DIR        "C:/PWP2/OpenGL/build/Testing/gtest"
+  BINARY_DIR        "C:/PWP2/OpenGL/build/Testing/gtest-build"
   CONFIGURE_COMMAND ""
   BUILD_COMMAND ""
   INSTALL_COMMAND   ""
@@ -16,8 +16,8 @@ ExternalProject_Add(googletest
 
 ExternalProject_Add(googlemock
   URL https://github.com/google/googlemock/archive/release-1.7.0.zip
-  SOURCE_DIR        "C:/PWP2/build/Testing/gmock"
-  BINARY_DIR        "C:/PWP2/build/Testing/gmock-build"
+  SOURCE_DIR        "C:/PWP2/OpenGL/build/Testing/gmock"
+  BINARY_DIR        "C:/PWP2/OpenGL/build/Testing/gmock-build"
   CONFIGURE_COMMAND ""
   BUILD_COMMAND ""
   INSTALL_COMMAND   ""

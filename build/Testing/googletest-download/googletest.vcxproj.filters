@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeLists.txt" />
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-mkdir.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt" />
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-download.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-update.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-patch.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-configure.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-build.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-install.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-test.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\6fc8cbe277a3016a8f33471a86b51ea8\googletest-complete.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\78fb80116290f5df8d95716b7e0ffde0\googletest-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\26978eb47667c367b9db797ffbc573e1\googletest.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\6211c0123f6e9cd2fc891c8297400c65\googletest.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\googletest" />
+    <None Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\googletest" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{32139CE3-B98A-36DF-B5C6-2F2229A64753}</UniqueIdentifier>
+      <UniqueIdentifier>{B43245F2-E22F-3645-AAE1-9E5CB1952BB5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

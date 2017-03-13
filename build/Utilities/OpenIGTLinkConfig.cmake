@@ -38,7 +38,7 @@ SET(OpenIGTLink_USE_FILE "${OpenIGTLink_INSTALL_PREFIX}/lib/igtl/cmake/igtl-3.0/
 SET(OpenIGTLink_BUILD_SETTINGS_FILE "${OpenIGTLink_INSTALL_PREFIX}/lib/igtl/cmake/igtl-3.0/OpenIGTLinkBuildSettings.cmake")
 
 # Whether OpenIGTLink was built with shared libraries.
-SET(OpenIGTLink_BUILD_SHARED "ON")
+SET(OpenIGTLink_BUILD_SHARED "OFF")
 
 # Whether OpenIGTLink was built with Tcl wrapping support.
 SET(OpenIGTLink_CSWIG_TCL "")

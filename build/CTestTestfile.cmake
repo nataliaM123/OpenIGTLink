@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/PWP2/src
-# Build directory: C:/PWP2/build
+# Source directory: C:/PWP2/OpenGL/src
+# Build directory: C:/PWP2/OpenGL/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

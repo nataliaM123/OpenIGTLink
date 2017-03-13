@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{22195569-3BAE-36E1-A8E4-F98936A3E9E4}</ProjectGUID>
+    <ProjectGUID>{6D03B943-C32A-3504-ACCE-844CE086242E}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -65,7 +65,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -75,7 +75,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,7 +85,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -95,7 +95,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -104,10 +104,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\src\Examples\ImageMeta\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/src/Examples/ImageMeta/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\PWP2\OpenGL\src\Examples\ImageMeta\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/Examples/ImageMeta/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\Examples\ImageMeta\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\Examples\ImageMeta\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -115,12 +115,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/src/Examples/ImageMeta/CMakeLists.txt;C:\PWP2\src\Examples\ImageMeta\CMakeLists.txt;C:\PWP2\build\OpenIGTLinkConfig.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\src\Examples\ImageMeta\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Examples\ImageMeta\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/src/Examples/ImageMeta/CMakeLists.txt;C:\PWP2\OpenGL\src\Examples\ImageMeta\CMakeLists.txt;C:\PWP2\OpenGL\build\OpenIGTLinkConfig.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\src\Examples\ImageMeta\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Examples\ImageMeta\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/src/Examples/ImageMeta/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/Examples/ImageMeta/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\Examples\ImageMeta\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\Examples\ImageMeta\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -128,12 +128,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/src/Examples/ImageMeta/CMakeLists.txt;C:\PWP2\src\Examples\ImageMeta\CMakeLists.txt;C:\PWP2\build\OpenIGTLinkConfig.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\src\Examples\ImageMeta\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Examples\ImageMeta\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/src/Examples/ImageMeta/CMakeLists.txt;C:\PWP2\OpenGL\src\Examples\ImageMeta\CMakeLists.txt;C:\PWP2\OpenGL\build\OpenIGTLinkConfig.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\src\Examples\ImageMeta\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Examples\ImageMeta\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/src/Examples/ImageMeta/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/Examples/ImageMeta/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\Examples\ImageMeta\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\Examples\ImageMeta\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,12 +141,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/src/Examples/ImageMeta/CMakeLists.txt;C:\PWP2\src\Examples\ImageMeta\CMakeLists.txt;C:\PWP2\build\OpenIGTLinkConfig.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\src\Examples\ImageMeta\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Examples\ImageMeta\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/src/Examples/ImageMeta/CMakeLists.txt;C:\PWP2\OpenGL\src\Examples\ImageMeta\CMakeLists.txt;C:\PWP2\OpenGL\build\OpenIGTLinkConfig.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\src\Examples\ImageMeta\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Examples\ImageMeta\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/src/Examples/ImageMeta/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/Examples/ImageMeta/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\Examples\ImageMeta\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\Examples\ImageMeta\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -154,28 +154,28 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/src/Examples/ImageMeta/CMakeLists.txt;C:\PWP2\src\Examples\ImageMeta\CMakeLists.txt;C:\PWP2\build\OpenIGTLinkConfig.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\src\Examples\ImageMeta\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Examples\ImageMeta\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/src/Examples/ImageMeta/CMakeLists.txt;C:\PWP2\OpenGL\src\Examples\ImageMeta\CMakeLists.txt;C:\PWP2\OpenGL\build\OpenIGTLinkConfig.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\src\Examples\ImageMeta\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Examples\ImageMeta\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/PWP2/build/ZERO_CHECK.vcxproj">
-      <Project>21A4B0A2-EFA3-3EDB-B90A-34EB0C298E03</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/ZERO_CHECK.vcxproj">
+      <Project>DBB8F8B5-68A6-35BF-9705-2D5A5F2B9866</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/ImageMeta/ImageMetaClient.vcxproj">
-      <Project>C4F1A8BF-63CF-3082-8E51-B7AEA50661BE</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/ImageMeta/ImageMetaClient.vcxproj">
+      <Project>799B28DD-98C5-3207-95E3-4B7E5B907B18</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/ImageMeta/ImageMetaServer.vcxproj">
-      <Project>344DCF3B-DBCE-3E1B-9A9F-7FEBD012F2F3</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/ImageMeta/ImageMetaServer.vcxproj">
+      <Project>EC4F2FDF-8DCE-38DA-8EF5-A6AC2BCD5763</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/ImageMeta/LabelMetaClient.vcxproj">
-      <Project>0512504B-19D9-3F94-9434-48F1917DBA50</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/ImageMeta/LabelMetaClient.vcxproj">
+      <Project>A8C2A2C2-350E-3E9E-9C6D-9D4D4856D7C2</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Examples/ImageMeta/LabelMetaServer.vcxproj">
-      <Project>2A1A8073-CF18-39EC-ACCA-5ED6E669F71B</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Examples/ImageMeta/LabelMetaServer.vcxproj">
+      <Project>BBB5B181-9000-3359-BB2B-2AB540C5DD5A</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

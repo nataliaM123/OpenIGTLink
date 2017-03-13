@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\CMakeFiles\80336338328cf9848d4b7ce788529b9a\RUN_TESTS_force.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\CMakeFiles\e2426b6697a3c24e6875e53f27703dbb\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{7A8DD64D-F4AE-391B-8077-2EE7480AD187}</UniqueIdentifier>
+      <UniqueIdentifier>{12098F25-DE84-3D31-886D-E60CB452A53A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,0 +1,137 @@
+﻿Build started 2017-03-13 13:31:17.
+     1>Project "C:\PWP2\OpenGL\build\Source\OpenIGTLink.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/PWP2/OpenGL/src/Source/CMakeLists.txt
+         CMake does not need to re-run because C:\PWP2\OpenGL\build\Source\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\PWP2\OpenGL\build /IC:\PWP2\OpenGL\src\Source /IC:\PWP2\OpenGL\src\Source\igtlutil /IC:\PWP2\OpenGL\build\Source /IC:\PWP2\OpenGL\build\Source\igtlutil /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTCu /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"OpenIGTLink.dir\Debug\\" /Fd"OpenIGTLink.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt C:\PWP2\OpenGL\src\Source\igtlutil\igtl_header.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_image.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_transform.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_status.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_util.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_position.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_capability.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_colortable.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_imgmeta.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_lbmeta.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_point.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_tdata.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_qtdata.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_trajectory.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_unit.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_sensor.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_string.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_ndarray.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_bind.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_qtrans.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_polydata.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_command.c C:\PWP2\OpenGL\src\Source\igtlutil\igtl_query.c
+         igtl_header.c
+         igtl_image.c
+         igtl_transform.c
+         igtl_status.c
+         igtl_util.c
+         igtl_position.c
+         igtl_capability.c
+         igtl_colortable.c
+         igtl_imgmeta.c
+         igtl_lbmeta.c
+         igtl_point.c
+         igtl_tdata.c
+         igtl_qtdata.c
+         igtl_trajectory.c
+         igtl_unit.c
+         igtl_sensor.c
+         igtl_string.c
+         igtl_ndarray.c
+         igtl_bind.c
+         igtl_qtrans.c
+         igtl_polydata.c
+         igtl_command.c
+         igtl_query.c
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\PWP2\OpenGL\build /IC:\PWP2\OpenGL\src\Source /IC:\PWP2\OpenGL\src\Source\igtlutil /IC:\PWP2\OpenGL\build\Source /IC:\PWP2\OpenGL\build\Source\igtlutil /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTCu /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"OpenIGTLink.dir\Debug\\" /Fd"OpenIGTLink.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt C:\PWP2\OpenGL\src\Source\igtlClientSocket.cxx C:\PWP2\OpenGL\src\Source\igtlCapabilityMessage.cxx C:\PWP2\OpenGL\src\Source\igtlConditionVariable.cxx C:\PWP2\OpenGL\src\Source\igtlFastMutexLock.cxx C:\PWP2\OpenGL\src\Source\igtlImageMessage.cxx C:\PWP2\OpenGL\src\Source\igtlImageMessage2.cxx C:\PWP2\OpenGL\src\Source\igtlLightObject.cxx C:\PWP2\OpenGL\src\Source\igtlMath.cxx C:\PWP2\OpenGL\src\Source\igtlMessageBase.cxx C:\PWP2\OpenGL\src\Source\igtlMessageFactory.cxx C:\PWP2\OpenGL\src\Source\igtlMultiThreader.cxx C:\PWP2\OpenGL\src\Source\igtlMutexLock.cxx C:\PWP2\OpenGL\src\Source\igtlOSUtil.cxx C:\PWP2\OpenGL\src\Source\igtlObject.cxx C:\PWP2\OpenGL\src\Source\igtlObjectFactoryBase.cxx C:\PWP2\OpenGL\src\Source\igtlPositionMessage.cxx C:\PWP2\OpenGL\src\Source\igtlServerSocket.cxx C:\PWP2\OpenGL\src\Source\igtlSessionManager.cxx C:\PWP2\OpenGL\src\Source\igtlSimpleFastMutexLock.cxx C:\PWP2\OpenGL\src\Source\igtlSocket.cxx C:\PWP2\OpenGL\src\Source\igtlStatusMessage.cxx C:\PWP2\OpenGL\src\Source\igtlTimeStamp.cxx C:\PWP2\OpenGL\src\Source\igtlTransformMessage.cxx C:\PWP2\OpenGL\src\Source\igtlColorTableMessage.cxx C:\PWP2\OpenGL\src\Source\igtlImageMetaMessage.cxx C:\PWP2\OpenGL\src\Source\igtlLabelMetaMessage.cxx C:\PWP2\OpenGL\src\Source\igtlPointMessage.cxx C:\PWP2\OpenGL\src\Source\igtlTrackingDataMessage.cxx C:\PWP2\OpenGL\src\Source\igtlPolyDataMessage.cxx C:\PWP2\OpenGL\src\Source\igtlQuaternionTrackingDataMessage.cxx C:\PWP2\OpenGL\src\Source\igtlTrajectoryMessage.cxx C:\PWP2\OpenGL\src\Source\igtlStringMessage.cxx C:\PWP2\OpenGL\src\Source\igtlUnit.cxx C:\PWP2\OpenGL\src\Source\igtlSensorMessage.cxx C:\PWP2\OpenGL\src\Source\igtlBindMessage.cxx C:\PWP2\OpenGL\src\Source\igtlNDArrayMessage.cxx C:\PWP2\OpenGL\src\Source\igtlCommandMessage.cxx C:\PWP2\OpenGL\src\Source\igtlQueryMessage.cxx
+         igtlClientSocket.cxx
+         igtlCapabilityMessage.cxx
+         igtlConditionVariable.cxx
+         igtlFastMutexLock.cxx
+         igtlImageMessage.cxx
+         igtlImageMessage2.cxx
+         igtlLightObject.cxx
+         igtlMath.cxx
+         igtlMessageBase.cxx
+         igtlMessageFactory.cxx
+         igtlMultiThreader.cxx
+         igtlMutexLock.cxx
+         igtlOSUtil.cxx
+         igtlObject.cxx
+         igtlObjectFactoryBase.cxx
+         igtlPositionMessage.cxx
+         igtlServerSocket.cxx
+         igtlSessionManager.cxx
+         igtlSimpleFastMutexLock.cxx
+         igtlSocket.cxx
+         igtlStatusMessage.cxx
+         igtlTimeStamp.cxx
+         igtlTransformMessage.cxx
+         igtlColorTableMessage.cxx
+         igtlImageMetaMessage.cxx
+         igtlLabelMetaMessage.cxx
+         igtlPointMessage.cxx
+         igtlTrackingDataMessage.cxx
+         igtlPolyDataMessage.cxx
+         igtlQuaternionTrackingDataMessage.cxx
+         igtlTrajectoryMessage.cxx
+         igtlStringMessage.cxx
+         igtlUnit.cxx
+         igtlSensorMessage.cxx
+         igtlBindMessage.cxx
+         igtlNDArrayMessage.cxx
+         igtlCommandMessage.cxx
+         igtlQueryMessage.cxx
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\PWP2\OpenGL\build\bin\Debug\OpenIGTLink.lib" /NOLOGO  /machine:X86 OpenIGTLink.dir\Debug\igtl_header.obj
+         OpenIGTLink.dir\Debug\igtl_image.obj
+         OpenIGTLink.dir\Debug\igtl_transform.obj
+         OpenIGTLink.dir\Debug\igtl_status.obj
+         OpenIGTLink.dir\Debug\igtl_util.obj
+         OpenIGTLink.dir\Debug\igtl_position.obj
+         OpenIGTLink.dir\Debug\igtl_capability.obj
+         OpenIGTLink.dir\Debug\igtlClientSocket.obj
+         OpenIGTLink.dir\Debug\igtlCapabilityMessage.obj
+         OpenIGTLink.dir\Debug\igtlConditionVariable.obj
+         OpenIGTLink.dir\Debug\igtlFastMutexLock.obj
+         OpenIGTLink.dir\Debug\igtlImageMessage.obj
+         OpenIGTLink.dir\Debug\igtlImageMessage2.obj
+         OpenIGTLink.dir\Debug\igtlLightObject.obj
+         OpenIGTLink.dir\Debug\igtlMath.obj
+         OpenIGTLink.dir\Debug\igtlMessageBase.obj
+         OpenIGTLink.dir\Debug\igtlMessageFactory.obj
+         OpenIGTLink.dir\Debug\igtlMultiThreader.obj
+         OpenIGTLink.dir\Debug\igtlMutexLock.obj
+         OpenIGTLink.dir\Debug\igtlOSUtil.obj
+         OpenIGTLink.dir\Debug\igtlObject.obj
+         OpenIGTLink.dir\Debug\igtlObjectFactoryBase.obj
+         OpenIGTLink.dir\Debug\igtlPositionMessage.obj
+         OpenIGTLink.dir\Debug\igtlServerSocket.obj
+         OpenIGTLink.dir\Debug\igtlSessionManager.obj
+         OpenIGTLink.dir\Debug\igtlSimpleFastMutexLock.obj
+         OpenIGTLink.dir\Debug\igtlSocket.obj
+         OpenIGTLink.dir\Debug\igtlStatusMessage.obj
+         OpenIGTLink.dir\Debug\igtlTimeStamp.obj
+         OpenIGTLink.dir\Debug\igtlTransformMessage.obj
+         OpenIGTLink.dir\Debug\igtl_colortable.obj
+         OpenIGTLink.dir\Debug\igtl_imgmeta.obj
+         OpenIGTLink.dir\Debug\igtl_lbmeta.obj
+         OpenIGTLink.dir\Debug\igtl_point.obj
+         OpenIGTLink.dir\Debug\igtl_tdata.obj
+         OpenIGTLink.dir\Debug\igtl_qtdata.obj
+         OpenIGTLink.dir\Debug\igtl_trajectory.obj
+         OpenIGTLink.dir\Debug\igtl_unit.obj
+         OpenIGTLink.dir\Debug\igtl_sensor.obj
+         OpenIGTLink.dir\Debug\igtl_string.obj
+         OpenIGTLink.dir\Debug\igtl_ndarray.obj
+         OpenIGTLink.dir\Debug\igtl_bind.obj
+         OpenIGTLink.dir\Debug\igtl_qtrans.obj
+         OpenIGTLink.dir\Debug\igtl_polydata.obj
+         OpenIGTLink.dir\Debug\igtlColorTableMessage.obj
+         OpenIGTLink.dir\Debug\igtlImageMetaMessage.obj
+         OpenIGTLink.dir\Debug\igtlLabelMetaMessage.obj
+         OpenIGTLink.dir\Debug\igtlPointMessage.obj
+         OpenIGTLink.dir\Debug\igtlTrackingDataMessage.obj
+         OpenIGTLink.dir\Debug\igtlPolyDataMessage.obj
+         OpenIGTLink.dir\Debug\igtlQuaternionTrackingDataMessage.obj
+         OpenIGTLink.dir\Debug\igtlTrajectoryMessage.obj
+         OpenIGTLink.dir\Debug\igtlStringMessage.obj
+         OpenIGTLink.dir\Debug\igtlUnit.obj
+         OpenIGTLink.dir\Debug\igtlSensorMessage.obj
+         OpenIGTLink.dir\Debug\igtlBindMessage.obj
+         OpenIGTLink.dir\Debug\igtlNDArrayMessage.obj
+         OpenIGTLink.dir\Debug\igtlCommandMessage.obj
+         OpenIGTLink.dir\Debug\igtlQueryMessage.obj
+         OpenIGTLink.dir\Debug\igtl_command.obj
+         OpenIGTLink.dir\Debug\igtl_query.obj
+         OpenIGTLink.vcxproj -> C:\PWP2\OpenGL\build\bin\Debug\OpenIGTLink.lib
+     1>Done Building Project "C:\PWP2\OpenGL\build\Source\OpenIGTLink.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.33

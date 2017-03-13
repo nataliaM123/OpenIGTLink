@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/release-1.7.0.zip" ABSOLUTE)
-get_filename_component(directory "C:/PWP2/build/Testing/gtest" ABSOLUTE)
+get_filename_component(filename "C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/release-1.7.0.zip" ABSOLUTE)
+get_filename_component(directory "C:/PWP2/OpenGL/build/Testing/gtest" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{7D7DAD7E-F9F5-30E8-8F81-DA30DBF93AD3}</ProjectGUID>
+    <ProjectGUID>{E9109A62-15AF-3221-B65D-444AF2E5DC38}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>MultipleMethodExecute</ProjectName>
@@ -58,25 +58,25 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\bin\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\bin\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MultipleMethodExecute.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MultipleMethodExecute</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\bin\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\bin\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MultipleMethodExecute.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MultipleMethodExecute</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\bin\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\bin\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MultipleMethodExecute.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MultipleMethodExecute</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\bin\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\bin\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MultipleMethodExecute.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MultipleMethodExecute</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -85,7 +85,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -102,10 +102,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -118,8 +118,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/PWP2/build/bin/Debug/MultipleMethodExecute.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/PWP2/build/bin/Debug/MultipleMethodExecute.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/PWP2/OpenGL/build/bin/Debug/MultipleMethodExecute.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/PWP2/OpenGL/build/bin/Debug/MultipleMethodExecute.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -145,10 +145,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -161,8 +161,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/PWP2/build/bin/Release/MultipleMethodExecute.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/PWP2/build/bin/Release/MultipleMethodExecute.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/PWP2/OpenGL/build/bin/Release/MultipleMethodExecute.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/PWP2/OpenGL/build/bin/Release/MultipleMethodExecute.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -172,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -188,10 +188,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -204,8 +204,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/PWP2/build/bin/MinSizeRel/MultipleMethodExecute.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/PWP2/build/bin/MinSizeRel/MultipleMethodExecute.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/PWP2/OpenGL/build/bin/MinSizeRel/MultipleMethodExecute.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/PWP2/OpenGL/build/bin/MinSizeRel/MultipleMethodExecute.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -231,10 +231,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\PWP2\src\Source\igtlutil;C:\PWP2\src\Source;C:\PWP2\build;C:\PWP2\build\Source;C:\PWP2\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PWP2\OpenGL\src\Source\igtlutil;C:\PWP2\OpenGL\src\Source;C:\PWP2\OpenGL\build;C:\PWP2\OpenGL\build\Source;C:\PWP2\OpenGL\build\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -247,8 +247,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/PWP2/build/bin/RelWithDebInfo/MultipleMethodExecute.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/PWP2/build/bin/RelWithDebInfo/MultipleMethodExecute.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/PWP2/OpenGL/build/bin/RelWithDebInfo/MultipleMethodExecute.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/PWP2/OpenGL/build/bin/RelWithDebInfo/MultipleMethodExecute.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -257,10 +257,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\src\Examples\Thread\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/src/Examples/Thread/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\PWP2\OpenGL\src\Examples\Thread\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/Examples/Thread/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\Examples\Thread\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\Examples\Thread\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,12 +268,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/src/Examples/Thread/CMakeLists.txt;C:\PWP2\src\Examples\Thread\CMakeLists.txt;C:\PWP2\build\OpenIGTLinkConfig.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\src\Examples\Thread\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Examples\Thread\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/src/Examples/Thread/CMakeLists.txt;C:\PWP2\OpenGL\src\Examples\Thread\CMakeLists.txt;C:\PWP2\OpenGL\build\OpenIGTLinkConfig.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\src\Examples\Thread\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Examples\Thread\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/src/Examples/Thread/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/Examples/Thread/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\Examples\Thread\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\Examples\Thread\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,12 +281,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/src/Examples/Thread/CMakeLists.txt;C:\PWP2\src\Examples\Thread\CMakeLists.txt;C:\PWP2\build\OpenIGTLinkConfig.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\src\Examples\Thread\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Examples\Thread\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/src/Examples/Thread/CMakeLists.txt;C:\PWP2\OpenGL\src\Examples\Thread\CMakeLists.txt;C:\PWP2\OpenGL\build\OpenIGTLinkConfig.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\src\Examples\Thread\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Examples\Thread\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/src/Examples/Thread/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/Examples/Thread/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\Examples\Thread\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\Examples\Thread\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,12 +294,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/src/Examples/Thread/CMakeLists.txt;C:\PWP2\src\Examples\Thread\CMakeLists.txt;C:\PWP2\build\OpenIGTLinkConfig.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\src\Examples\Thread\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Examples\Thread\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/src/Examples/Thread/CMakeLists.txt;C:\PWP2\OpenGL\src\Examples\Thread\CMakeLists.txt;C:\PWP2\OpenGL\build\OpenIGTLinkConfig.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\src\Examples\Thread\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Examples\Thread\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/src/Examples/Thread/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/OpenGL/src/Examples/Thread/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/src -BC:/PWP2/build --check-stamp-file C:\PWP2\build\Examples\Thread\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/src -BC:/PWP2/OpenGL/build --check-stamp-file C:\PWP2\OpenGL\build\Examples\Thread\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,20 +307,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/src/Examples/Thread/CMakeLists.txt;C:\PWP2\src\Examples\Thread\CMakeLists.txt;C:\PWP2\build\OpenIGTLinkConfig.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\build\OpenIGTLinkTargets.cmake;C:\PWP2\src\Examples\Thread\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Examples\Thread\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/src/Examples/Thread/CMakeLists.txt;C:\PWP2\OpenGL\src\Examples\Thread\CMakeLists.txt;C:\PWP2\OpenGL\build\OpenIGTLinkConfig.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\build\UseOpenIGTLink.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;C:\PWP2\OpenGL\build\OpenIGTLinkTargets.cmake;C:\PWP2\OpenGL\src\Examples\Thread\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Examples\Thread\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\PWP2\src\Examples\Thread\MultipleMethodExecute.cxx"  />
+    <ClCompile Include="C:\PWP2\OpenGL\src\Examples\Thread\MultipleMethodExecute.cxx"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/PWP2/build/ZERO_CHECK.vcxproj">
-      <Project>21A4B0A2-EFA3-3EDB-B90A-34EB0C298E03</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/ZERO_CHECK.vcxproj">
+      <Project>DBB8F8B5-68A6-35BF-9705-2D5A5F2B9866</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/PWP2/build/Source/OpenIGTLink.vcxproj">
-      <Project>AD1748D1-2639-3A62-B4BE-D362D6ABC79C</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Source/OpenIGTLink.vcxproj">
+      <Project>CC973B1E-6BEA-3BCE-BA60-CAF703675D01</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

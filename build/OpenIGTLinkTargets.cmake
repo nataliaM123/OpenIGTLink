@@ -42,42 +42,42 @@ unset(_expectedTargets)
 
 
 # Create imported target OpenIGTLink
-add_library(OpenIGTLink SHARED IMPORTED)
+add_library(OpenIGTLink STATIC IMPORTED)
 
 set_target_properties(OpenIGTLink PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/PWP2/build;C:/PWP2/src/Source;C:/PWP2/build/Source;C:/PWP2/src/Source/igtlutil;C:/PWP2/build/Source/igtlutil"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/PWP2/OpenGL/build;C:/PWP2/OpenGL/src/Source;C:/PWP2/OpenGL/build/Source;C:/PWP2/OpenGL/src/Source/igtlutil;C:/PWP2/OpenGL/build/Source/igtlutil"
 )
 
 # Import target "OpenIGTLink" for configuration "Debug"
 set_property(TARGET OpenIGTLink APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(OpenIGTLink PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/PWP2/build/bin/Debug/OpenIGTLink.lib"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C;CXX"
   IMPORTED_LINK_INTERFACE_LIBRARIES_DEBUG "ws2_32;wsock32"
-  IMPORTED_LOCATION_DEBUG "C:/PWP2/build/bin/Debug/OpenIGTLink.dll"
+  IMPORTED_LOCATION_DEBUG "C:/PWP2/OpenGL/build/bin/Debug/OpenIGTLink.lib"
   )
 
 # Import target "OpenIGTLink" for configuration "Release"
 set_property(TARGET OpenIGTLink APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(OpenIGTLink PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/PWP2/build/bin/Release/OpenIGTLink.lib"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C;CXX"
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "ws2_32;wsock32"
-  IMPORTED_LOCATION_RELEASE "C:/PWP2/build/bin/Release/OpenIGTLink.dll"
+  IMPORTED_LOCATION_RELEASE "C:/PWP2/OpenGL/build/bin/Release/OpenIGTLink.lib"
   )
 
 # Import target "OpenIGTLink" for configuration "MinSizeRel"
 set_property(TARGET OpenIGTLink APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(OpenIGTLink PROPERTIES
-  IMPORTED_IMPLIB_MINSIZEREL "C:/PWP2/build/bin/MinSizeRel/OpenIGTLink.lib"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C;CXX"
   IMPORTED_LINK_INTERFACE_LIBRARIES_MINSIZEREL "ws2_32;wsock32"
-  IMPORTED_LOCATION_MINSIZEREL "C:/PWP2/build/bin/MinSizeRel/OpenIGTLink.dll"
+  IMPORTED_LOCATION_MINSIZEREL "C:/PWP2/OpenGL/build/bin/MinSizeRel/OpenIGTLink.lib"
   )
 
 # Import target "OpenIGTLink" for configuration "RelWithDebInfo"
 set_property(TARGET OpenIGTLink APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(OpenIGTLink PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/PWP2/build/bin/RelWithDebInfo/OpenIGTLink.lib"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C;CXX"
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELWITHDEBINFO "ws2_32;wsock32"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/PWP2/build/bin/RelWithDebInfo/OpenIGTLink.dll"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/PWP2/OpenGL/build/bin/RelWithDebInfo/OpenIGTLink.lib"
   )
 
 # This file does not depend on other imported targets which have

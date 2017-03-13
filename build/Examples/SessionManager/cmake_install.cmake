@@ -1,4 +1,4 @@
-# Install script for directory: C:/PWP2/src/Examples/SessionManager
+# Install script for directory: C:/PWP2/OpenGL/src/Examples/SessionManager
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

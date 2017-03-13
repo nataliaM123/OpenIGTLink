@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{ABECAA83-3A34-3C86-B02F-1DC0D83E2202}</ProjectGUID>
+    <ProjectGUID>{93019655-316F-3DA2-86F7-616BA3F2553E}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>googletest</ProjectName>
@@ -104,10 +104,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/build/Testing/googletest-download/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/build/Testing/googletest-download -BC:/PWP2/build/Testing/googletest-download --check-stamp-file C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/build/Testing/googletest-download -BC:/PWP2/OpenGL/build/Testing/googletest-download --check-stamp-file C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -115,12 +115,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/build/Testing/googletest-download/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/build/Testing/googletest-download -BC:/PWP2/build/Testing/googletest-download --check-stamp-file C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/build/Testing/googletest-download -BC:/PWP2/OpenGL/build/Testing/googletest-download --check-stamp-file C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -128,12 +128,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/build/Testing/googletest-download/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/build/Testing/googletest-download -BC:/PWP2/build/Testing/googletest-download --check-stamp-file C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/build/Testing/googletest-download -BC:/PWP2/OpenGL/build/Testing/googletest-download --check-stamp-file C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,12 +141,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/build/Testing/googletest-download/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/build/Testing/googletest-download -BC:/PWP2/build/Testing/googletest-download --check-stamp-file C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -HC:/PWP2/OpenGL/build/Testing/googletest-download -BC:/PWP2/OpenGL/build/Testing/googletest-download --check-stamp-file C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -154,28 +154,28 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\student\Downloads\cmake-3.7.2-win32-x86\share\cmake-3.7\Modules\ExternalProject-download.cmake.in;C:\PWP2\OpenGL\build\Testing\googletest-download\googlemock-prefix\tmp\googlemock-cfgcmd.txt.in;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-mkdir.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-mkdir.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/gtest
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest-build
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/gtest-build
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/tmp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-mkdir
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -183,24 +183,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/gtest
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest-build
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/gtest-build
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/tmp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-mkdir
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -208,24 +208,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Creating directories for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/gtest
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest-build
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/gtest-build
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/tmp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-mkdir
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -233,24 +233,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/gtest
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/gtest-build
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/gtest-build
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/tmp
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/googletest-prefix/src
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-mkdir
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -258,26 +258,26 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-download.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing download step (download, verify and extract) for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-cd C:\PWP2\build\Testing
+cd C:\PWP2\OpenGL\build\Testing
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-download
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -285,22 +285,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-download.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\googletest-urlinfo.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-download.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\googletest-urlinfo.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing download step (download, verify and extract) for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-cd C:\PWP2\build\Testing
+cd C:\PWP2\OpenGL\build\Testing
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-download
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -308,22 +308,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-download.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\googletest-urlinfo.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-download.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\googletest-urlinfo.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing download step (download, verify and extract) for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-cd C:\PWP2\build\Testing
+cd C:\PWP2\OpenGL\build\Testing
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-download
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -331,22 +331,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-download.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\googletest-urlinfo.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-download.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\googletest-urlinfo.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing download step (download, verify and extract) for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-cd C:\PWP2\build\Testing
+cd C:\PWP2\OpenGL\build\Testing
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -P C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-download
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -354,18 +354,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-download.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\googletest-urlinfo.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-download.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\googletest-urlinfo.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-update.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No update step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-update
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -373,14 +373,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-update.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-update.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No update step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-update
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -388,14 +388,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-update.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-update.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No update step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-update
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -403,14 +403,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-update.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-update.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No update step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-update
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -418,18 +418,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-update.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-update.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-patch.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-patch
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -437,14 +437,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-patch.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-patch.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-patch
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -452,14 +452,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-patch.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-patch.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No patch step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-patch
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -467,14 +467,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-patch.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-patch.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-patch
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -482,22 +482,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-patch.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-patch.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-configure.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-configure.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No configure step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-configure
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -505,18 +505,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-configure.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-configure.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No configure step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-configure
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -524,18 +524,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-configure.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-configure.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No configure step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-configure
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -543,18 +543,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-configure.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-configure.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No configure step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-configure
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -562,22 +562,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-configure.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-configure.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\tmp\googletest-cfgcmd.txt;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-build.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-build.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No build step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-build
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -585,18 +585,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-build.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-build.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No build step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-build
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -604,18 +604,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-build.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-build.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No build step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-build
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -623,18 +623,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-build.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-build.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No build step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-build
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -642,22 +642,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-build.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-build.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-install.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-install.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No install step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-install
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -665,18 +665,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-install.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-install.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No install step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-install
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -684,18 +684,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-install.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-install.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No install step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-install
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -703,18 +703,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-install.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-install.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No install step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-install
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -722,22 +722,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-install.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-install.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\96b68530654e46f59a3dc5fdf08c0301\googletest-test.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\2af5449684caab3c63336f92da56f1da\googletest-test.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No test step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-test
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -745,18 +745,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-test.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-test.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No test step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-test
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -764,18 +764,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-test.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-test.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No test step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-test
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -783,18 +783,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-test.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-test.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No test step for 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-cd C:\PWP2\build\Testing\gtest-build
+cd C:\PWP2\OpenGL\build\Testing\gtest-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-test
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -802,20 +802,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/96b68530654e46f59a3dc5fdf08c0301/googletest-test.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/2af5449684caab3c63336f92da56f1da/googletest-test.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\6fc8cbe277a3016a8f33471a86b51ea8\googletest-complete.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\78fb80116290f5df8d95716b7e0ffde0\googletest-complete.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)/googletest-complete
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/$(Configuration)/googletest-complete
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-done
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -823,16 +823,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/6fc8cbe277a3016a8f33471a86b51ea8/googletest-complete.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/78fb80116290f5df8d95716b7e0ffde0/googletest-complete.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)/googletest-complete
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/$(Configuration)/googletest-complete
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-done
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -840,16 +840,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/6fc8cbe277a3016a8f33471a86b51ea8/googletest-complete.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/78fb80116290f5df8d95716b7e0ffde0/googletest-complete.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Completed 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)/googletest-complete
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/$(Configuration)/googletest-complete
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-done
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -857,16 +857,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/6fc8cbe277a3016a8f33471a86b51ea8/googletest-complete.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/78fb80116290f5df8d95716b7e0ffde0/googletest-complete.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'googletest'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E make_directory C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/CMakeFiles/$(Configuration)/googletest-complete
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/$(Configuration)/googletest-complete
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-done
+C:\Users\student\Downloads\cmake-3.7.2-win32-x86\bin\cmake.exe -E touch C:/PWP2/OpenGL/build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/$(Configuration)/googletest-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -874,13 +874,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/6fc8cbe277a3016a8f33471a86b51ea8/googletest-complete.rule;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/78fb80116290f5df8d95716b7e0ffde0/googletest-complete.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-mkdir;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-download;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-update;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-patch;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-configure;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-build;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-install;C:\PWP2\OpenGL\build\Testing\googletest-download\googletest-prefix\src\googletest-stamp\$(Configuration)\googletest-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\26978eb47667c367b9db797ffbc573e1\googletest.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\6211c0123f6e9cd2fc891c8297400c65\googletest.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 :cmEnd
@@ -889,8 +889,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/26978eb47667c367b9db797ffbc573e1/googletest.rule;C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\googletest</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/6211c0123f6e9cd2fc891c8297400c65/googletest.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\googletest</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -900,8 +900,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/26978eb47667c367b9db797ffbc573e1/googletest.rule;C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\googletest</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/6211c0123f6e9cd2fc891c8297400c65/googletest.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\googletest</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -911,8 +911,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/26978eb47667c367b9db797ffbc573e1/googletest.rule;C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\googletest</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/6211c0123f6e9cd2fc891c8297400c65/googletest.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\googletest</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -922,17 +922,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/build/Testing/googletest-download/CMakeFiles/26978eb47667c367b9db797ffbc573e1/googletest.rule;C:\PWP2\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\build\Testing\googletest-download\CMakeFiles\googletest</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/PWP2/OpenGL/build/Testing/googletest-download/CMakeFiles/6211c0123f6e9cd2fc891c8297400c65/googletest.rule;C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\$(Configuration)\googletest-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\googletest</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\PWP2\build\Testing\googletest-download\CMakeFiles\googletest" />
+    <None Include="C:\PWP2\OpenGL\build\Testing\googletest-download\CMakeFiles\googletest" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/PWP2/build/Testing/googletest-download/ZERO_CHECK.vcxproj">
-      <Project>908F5A21-2820-3F1F-8B0B-1F87889782E3</Project>
+    <ProjectReference Include="C:/PWP2/OpenGL/build/Testing/googletest-download/ZERO_CHECK.vcxproj">
+      <Project>A8FC3D96-5B95-3F01-9C44-B1258A93E46A</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

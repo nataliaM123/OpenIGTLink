@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\PWP2\build\CMakeFiles\1692449b7313a4b76cf4dce7ca80868f\INSTALL_force.rule">
+    <CustomBuild Include="C:\PWP2\OpenGL\build\CMakeFiles\2351a593e0e6b9725b7f8ffbe5c6627f\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{7A8DD64D-F4AE-391B-8077-2EE7480AD187}</UniqueIdentifier>
+      <UniqueIdentifier>{12098F25-DE84-3D31-886D-E60CB452A53A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
