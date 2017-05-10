@@ -18,6 +18,7 @@ if (${OpenIGTLink_PROTOCOL_VERSION} GREATER 1)
     ${EXAMPLE_DIRS}
     ImageMeta
     Point
+    Wojcik_PWP
     TrackingData
     QuaternionTrackingData
     ImageDatabaseServer
